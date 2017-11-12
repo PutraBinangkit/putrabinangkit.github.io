@@ -28,13 +28,13 @@
 <div class="panel" data-color="red">
  <header>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg scrolling-navbar navbar-custom navbar-light fixed-top z-depth-0">
+         <nav class="navbar navbar-expand-lg scrolling-navbar navbar-custom navbar-light fixed-top z-depth-0">
             <div class="container">
                 <div class="collapse navbar-collapse changelogo" id="navbarToggler">
                     <ul class="navbar-nav mr-auto">
 
-                      <h1><a class="navbar-brand" href="{{ site.baseurl }}/" title="{{ site.title }}">
-        <img src="img/logo-atas.png" height="50" class="d-inline-block align-top" alt="Putra Binangkit" title="{{ site.title }} - {{ site.tagline }}"></a></h1>
+                      <a class="navbar-brand" href="{{ site.baseurl }}/" title="{{ site.title }}"> 
+        <img src="{{ site.baseurl }}/img/logo-atas.png" height="50" class="d-inline-block align-top" alt="PutraBinangkit" title="{{ site.title }} - {{ site.tagline }}"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
         aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -45,9 +45,8 @@
                     <!-- Social Icon  -->
                     <ul class="navbar-nav nav-flex-icons font-bold">
                         <li class="nav-item">
-                            <a class="nav-link font-up" href="/">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link font-up" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
-               
                           <li class="dropdown nav-item">
                 <a class="nav-link font-up dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
                     aria-expanded="false">
