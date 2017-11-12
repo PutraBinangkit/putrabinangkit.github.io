@@ -212,6 +212,7 @@ hr.style1{
 	margin: 10px 0px 0px 0px;
 	padding: 0px;
 }
-.tagging, .tagging a{
-	color: #fff;
+.artikel img{
+  max-width: 100%;
+  height: auto;
 }
