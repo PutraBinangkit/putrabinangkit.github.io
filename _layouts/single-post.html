@@ -22,12 +22,6 @@ layout: default
                          {{ content }}
 
                       
-
-     {% if page.tags %} Tags | 
-  {% for tag in page.tags %}
-    <span class="badge badge-primary tagging"><a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}">{{ tag }}</a></span>
-  {% endfor %}
-  {% endif %}
                  </div>
                 </div>
                {% include widget.html %}
