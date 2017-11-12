@@ -1,1 +1,56 @@
-theme: jekyll-theme-architect
+# Site Info
+locale: "id-ID"
+title_separator: "-"
+title: Putra Binangkit
+tagline: 'Layanan Informasi & Teknologi'
+description: 'Layanan professional Informasi & Teknologi untuk organisasi, bisnis dan perorangan'
+baseurl: '/'
+breadcrumbs: true
+url: https://putrabinangkit.github.iohttps://github.com/PutraBinangkit
+logo: '/img/logo-atas-black.png'
+
+# Site configurations
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss    
+paginate: 3
+paginate_path: '/page:num'
+permalink: /:title/
+
+# About/contact
+author:
+  name: Putra Binangkit
+  description: Layanan Informasi & Teknologi.
+  contact:
+    #linkedin:  <hide>
+    github: https://github.com/PutraBinangkit
+    # facebook:  <hide>
+    #twitter:   <hide>
+    #weibo:     <hide>
+    #email:     <hide>
+
+# Navigation (2nd level links supported)
+nav:
+  Home:           
+    - '/'
+  Categories:           
+    - '/categories/'
+  Tags:
+    - '/tags/'
+  About:          
+    - '/about/'
+  Github Project: 
+    - 'https://cyberid.github.io'
+
+# Where are tags and categories displayed
+tag_page: '/tags/'
+category_page: '/categories/'
