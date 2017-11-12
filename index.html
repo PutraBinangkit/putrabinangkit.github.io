@@ -311,12 +311,14 @@ title: Home
 
             {% if foundImage == 0 %}
                 {% assign html = image | split:"/>" | first %}
-                <img {{ html }} />
+                <img {{ html }} class="img-fluid" />
                 {% assign foundImage = 1 %}
             {% endif %}
         {% endif %}
       {% endfor %}
-        
+        <a>
+            <div class="mask"></div>
+        </a>
     </div>
     <!--/.Card image-->
     <!--Card content-->
