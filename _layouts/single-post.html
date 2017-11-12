@@ -23,9 +23,9 @@ layout: default
 
                       
 
-     {% if page.tags %} | 
+     {% if page.tags %} Tags | 
   {% for tag in page.tags %}
-    <span class="badge badge-pill purple"><a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}">{{ tag }}</a></span>
+    <span class="badge badge-primary"><a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}">{{ tag }}</a></span>
   {% endfor %}
   {% endif %}
                  </div>
