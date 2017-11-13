@@ -16,6 +16,7 @@ Banyak orang membeli komputer dengan spesifikasi terlalu tinggi, padahal mereka 
 
 **Putra Binangkit** memastikan anda untuk mendapatkan komputer yang sesuai dengan kebutuhan anda, sehingga anda tidak membayar lebih untuk sumber daya yang sebenarnya tidak anda butuhkan.
 
+<br />
 ## Perbaikan Komputer
 Memperbaiki komputer anda dengan layanan kami adalah keputusan yang tepat, kami tidak hanya sekedar menawarkan perbaikan perangkat komputer namun juga melakukan optimasi. Tim kami juga memberikan layanan pencadangan (Backup) untuk mengamankan seluruh data dan system komputer anda, sehingga data dan sistem komputer anda lebih aman.
 
