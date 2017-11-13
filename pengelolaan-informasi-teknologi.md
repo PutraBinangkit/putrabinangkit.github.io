@@ -3,6 +3,9 @@ layout: page
 title: Pengelolaan Infrastruktur Informasi & Teknologi
 ---
 
+![Aplikasi Bisnis Terintegrasi](img/banner-2.jpg)
+
+<br />
 Infrastruktur Informasi dan Teknologi sangat perlu untuk dikelola dengn baik, karena hal tersebut telah menjadi bagian penting dalam kelangsungan organisasi dan perusahaan anda, ketika ada hal yang tidak bekerja dengan baik maka bisa berdampak sangat besar pada jalannya organisasi dan perusahaan anda.
 
 Untuk menghindari hal-hal yang tidak diinginkan pada infrastrktur Informasi dan Teknologi di organisasi dan perusahaan anda, maka sebaiknya anda memesan layanan Pengelolaan Infrastruktur Informasi & Teknolosi dari Putra Binangkit, kami akan membantu anda untuk melakukan perawatan, perbaikan serta melakukan pemantaun secara berkala untuk membuat seluruh infrastruktur Informasi dan teknologi di perusahaan dan organisaasi anda berjalan dengan baik.
