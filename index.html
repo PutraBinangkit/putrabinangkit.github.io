@@ -219,21 +219,22 @@ title: Home
 
                 <div class="card-body">
                     <!--Body-->
+                <form action="https://formspree.io/kontak@putrabinangkit.com" method="POST">
                     <div class="md-form">
                         <i class="fa fa-user prefix grey-text"></i>
-                        <input type="text" id="form-name" class="form-control">
+                        <input type="text" id="form-name" name="name" class="form-control">
                         <label for="form-name">Nama</label>
                     </div>
 
                     <div class="md-form">
                         <i class="fa fa-envelope prefix grey-text"></i>
-                        <input type="text" id="form-email" class="form-control">
+                        <input type="text" id="form-email"  name="_replyto" class="form-control">
                         <label for="form-email">Email anda</label>
                     </div>
 
                     <div class="md-form">
                         <i class="fa fa-tag prefix grey-text"></i>
-                        <input type="text" id="form-Subject" class="form-control">
+                        <input type="text" id="form-Subject"  name="subjek" class="form-control">
                         <label for="form-Subject">Subjek</label>
                     </div>
 
@@ -244,11 +245,11 @@ title: Home
                     </div>
 
                     <div class="text-center">
-                        <button class="btn btn-dark-green">Submit</button>
+                        <button class="btn btn-dark-green" type="submit" value="Send">Submit</button>
                     </div>
 
                 </div>
-
+                    </form>
             </div>
             <!--Form with header-->
 
