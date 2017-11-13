@@ -6,10 +6,8 @@ title: Layanan Pembuatan Website & Internet Marketing
 ## Website & Internet Marketing
 Dua hal yang sangat vital di era perkembangan teknologi dan informasi saat ini, tanpa dua hal tersebut besar kemungkinan bisnis anda akan tertinggal cukup jauh dibanding kompetitor anda yang telah memiki website sendiri dan melakukan promosi di Internet.
 
-
 <br />
-## Pembuatan & Penglolaan Website
-
+## **Pembuatan & Penglolaan Website**
 **Putra Binangkit** menawarkan layanan pembuatan dan pengelolaan website untuk seluruh lapisan masyarakat yang membutuhkan kepemilikan website, baik itu personal, bisnis maupun organisasi. Website yang kami buat selalu menggunakan sentuhan teknologi terbaru dengan desain yang modern dan bisa diakses dari berbagai perangkat, seperti *SmartPhone, SmartTV, Tablet* dan tentu saja komputer.
 
 <br />
@@ -28,16 +26,14 @@ Satu hal yang sangat penting hari ini adalah bertambah banyaknya pelanggan yang 
 
 Jika anda pemilik usaha yang menawarkan barang ataupun jasa di manapun lokasi anda berada, segeralah miliki situs *e-Commerce* / Toko Online anda pribadi, sehingga anda bisa sedikit banyak menambah pelanggan untuk produk atau jasa anda dari seluruh pelosok dunia.
 
-
 <br />
-## UKM GO Online !
+## **UKM GO Online !**
 Sebagai bentuk dukungan kami terhadap pelaku rintisan Usaha Kecil Menengah (UKM), kami Putra Binangkit yang juga merupakan rintisan Usaha Kecil Menengah merasa perlu untuk memberikan dukungan dan keberpihakan terhadap para pelaku UKM lainnya, sebagai rasa kebersamaan, senasib dan sepenanggungan yang sedang beusaha dan bekerja keras untuk menjadikan kehidupan yang lebih baik di masa depan. 
 
 Maka dengan itu kami menawarkan paket pembuatan website hemat, baik itu website profile usaha ataupu *e-Commerce* (Toko Online), website paket hemat ini tidak sedikitpun menurunkan kualitas layanan kami, website yang kami buat adalah website yang kompatibel dan bisa beradaptasi dengan perkembangan teknologi terkini, serat bisa dikases dari berbagai perangkat elektronik.
 
-
 <br />
-## Internet Marketing
+## **Internet Marketing**
 Memiliki website saja terkadang tidak cukup, diperlukan pemasaran untuk membuat website kita ramai dikunjungi dan produk atau layanan pada website kita dipesan oleh calon pelanggan.
 
 Kami, **Putra Binangkit** menawarkan jasa pemasaran / promosi di Internet untuk website anda, baik itu website yang anda pesan pada layanan kami ataupun website yang pesan dari pihak lain. Layanan Internet Marketing kami meliputi,
@@ -56,7 +52,7 @@ Selain itu, Putra Binangkit juga melayanai jasa pengelolaan media sosial, kami a
 
 
 <br />
-## Digital Branding
+## **Digital Branding**
 **Putra Binangkit** juga melayani jasa Digital Branding bagi anda yang sedang berencana membuat rintisan usaha baru, Digital Branding yang kami lakukan meliputi, pembuatan logo, *stationery*, website dan media sosial.
 
 <br />
