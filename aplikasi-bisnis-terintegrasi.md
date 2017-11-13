@@ -5,6 +5,7 @@ title: Aplikasi Bisnis Terintegrasi
 
 
 ![Aplikasi Bisnis Terintegrasi](img/banner-2.jpg)
+
 <br />
 Mengintegrasikan infrastruktur teknologi dan informasi untuk mengakselarasikan operasional perusahaan / organisasi anda ke arah yang lebih efisien dan efektif dapat tercapai dengan menggunakan layanan dari kami. Layanan Aplikasi Bisnis Terintegrasi ini merupakan layanan untuk segmen korporasi atau organisasi yang memiliki sumber daya yang cukup besar. 
 
