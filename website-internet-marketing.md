@@ -12,13 +12,13 @@ Dua hal yang sangat vital di era perkembangan teknologi dan informasi saat ini, 
 
 <br />
 ### Website Pribadi
-Yaitu website yang dibuat untuk kepentingan pribadi, pengguna layanan ini bisa seperti tokoh publik, politisi, fotografer, seniman, dll yang ingin mempunyai website pribadi yang bisa di akses dari seluruh penjuru dunia dengan isi yang beragama, entah itu tulisan, gambar, maupun video diri anda. Memiliki website pribadi dapat meningkatkan citra profesionalisme si pemiliknya, memberikan orang lain gambaran bahwa diri anda adalah seorang yang mengikuti perkembangan zaman.
+Yaitu website yang dibuat untuk kepentingan pribadi, pengguna layanan ini bisa seperti tokoh publik, politisi, fotografer, seniman, dll yang ingin mempunyai website pribadi yang bisa di akses dari seluruh penjuru dunia dengan isi yang beragam, entah itu tulisan, gambar, maupun video diri anda. Memiliki website pribadi dapat meningkatkan citra profesionalisme si pemiliknya, memberikan orang lain gambaran bahwa diri anda adalah seorang yang mengikuti perkembangan zaman.
 
 <br />
 ### Website Korporasi / Organisasi
 Website ini diperuntukan bagi organisasi atau korporasi yang ingin memiliki website pribadi untuk sekedar menunjukan eksistensi di Internet atau juga digunakan secara optimal sebagai bagian dari program baranding dan promosi produk atau jasa yang dibuat oleh organisasi ataupun korporasi anda ke seluruh dunia atau target pasar anda.
 
-Layanan website korporasi atau organisasi ini sangat cocok untuk perusahaan nasional dan multinasional, grup musik, sekolah, universitas dan organisai-organisasi lainnya.
+Layanan website korporasi atau organisasi ini sangat cocok untuk perusahaan nasional dan multinasional, grup musik, sekolah, universitas dan organisasi-organisasi lainnya.
 
 <br />
 ### e-Commerce / Toko Online
@@ -30,7 +30,7 @@ Jika anda pemilik usaha yang menawarkan barang ataupun jasa di manapun lokasi an
 ## **UKM GO Online !**
 Sebagai bentuk dukungan kami terhadap pelaku rintisan Usaha Kecil Menengah (UKM), kami Putra Binangkit yang juga merupakan rintisan Usaha Kecil Menengah merasa perlu untuk memberikan dukungan dan keberpihakan terhadap para pelaku UKM lainnya, sebagai rasa kebersamaan, senasib dan sepenanggungan yang sedang beusaha dan bekerja keras untuk menjadikan kehidupan yang lebih baik di masa depan. 
 
-Maka dengan itu kami menawarkan paket pembuatan website hemat, baik itu website profile usaha ataupu *e-Commerce* (Toko Online), website paket hemat ini tidak sedikitpun menurunkan kualitas layanan kami, website yang kami buat adalah website yang kompatibel dan bisa beradaptasi dengan perkembangan teknologi terkini, serat bisa dikases dari berbagai perangkat elektronik.
+Maka dengan itu kami menawarkan paket pembuatan website hemat, baik itu website profile usaha ataupu *e-Commerce* (Toko Online), website paket hemat ini tidak sedikitpun menurunkan kualitas layanan kami, website yang kami buat adalah website yang kompatibel dan bisa beradaptasi dengan perkembangan teknologi terkini, serat bisa diakses dari berbagai perangkat elektronik.
 <hr />
 <br />
 ## **Internet Marketing**
@@ -42,7 +42,7 @@ Kami, **Putra Binangkit** menawarkan jasa pemasaran / promosi di Internet untuk 
 ### Search Engine Marketing (SEM)
 Yaitu promosi pada mesin pencari seperti, Google, Yahoo, Bing, dll. *Search Engine Marketing* dapat dilakukan dengan dua cara yaitu melaui *Search Engine Optimization (SEO)* atau juga bisa menggunakaa layanan periklanan seperti AdWords. Dengan memesan layanan ini, website anda bisa berada di posisi atas / halaman depan pada kata kunci tertentu di sebuah mesin pencari sesuai dengan yang anda pesan. 
 
-Layanan ini bergantung pada kesulitan kata kunci dan persaingan kompetitor, lamanya waktu dan jaminan tetap pada posisinya tidak bisa ditentukan.
+Layanan ini bergantung pada kesulitan kata kunci dan persaingan kompetitor, lamanya waktu pengerjaan dan jaminan tetap pada posisinya tidak bisa ditentukan.
 
 <br />
 ### Social Media Marketing(SMM)
