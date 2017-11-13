@@ -4,14 +4,11 @@ body{
 	transition: background-color 1s ease;
 }
 
-.navbar-expand-lg {
-    background-color: #fff;
-    padding: 20px 0;
-    transition: all 0.3s;
-}
+
 .navbar-expand-lg {
     background-color: transparent;
     border: 0px;
+     transition: all 0.3s;		
 }
 .topnavcol{
 	background: #FFFFFF;
@@ -39,7 +36,7 @@ body{
 
 }
 .intro2, .full-bg-imgs, .warnapanel{
-    background: url("../img/michael-discenza-199747.jpg")no-repeat center center;
+    background: url("../img/banner-2.jpg")no-repeat center center;
     background-size: cover;
     min-height: 300px;
 }
