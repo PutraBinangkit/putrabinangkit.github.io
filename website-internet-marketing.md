@@ -45,7 +45,7 @@ Yaitu promosi pada mesin pencari seperti, Google, Yahoo, Bing, dll. *Search Engi
 Layanan ini bergantung pada kesulitan kata kunci dan persaingan kompetitor, lamanya waktu pengerjaan dan jaminan tetap pada posisinya tidak bisa ditentukan.
 
 <br />
-### Social Media Marketing(SMM)
+### Social Media Marketing (SMM)
 Layanan promosi ini memanfaatkan platform media sosial seperti Facebook, Twitter, Youtube dan Google+. Bisnis / organisasi anda kan dibuatkan halaman khusus sesuai dengan nama bisnis /organisasi anda pada setiap platform media sosial tersebut. Promosi dilakukan dengan memanfaatkan *Influencer* ataupun dengan pemasangan iklan dari platform tersebut yang bisa disesuaikan dengan segmen pasar bisnis/usaha anda.
 
 Selain itu, Putra Binangkit juga melayanai jasa pengelolaan media sosial, kami akan membuat konten menarik yang akan meningkatkan pelibatan dan interaksi calon pelanggan anda di seluruh platform media sosial. Konten yang kami buat dapat disesuaikan dengan *brand guideline / communication guidelines* anda.
