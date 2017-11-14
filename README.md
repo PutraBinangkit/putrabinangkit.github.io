@@ -1,11 +1,11 @@
-## Welcome to GitHub Pages
+## Putra Binangkit Repositori
 
-You can use the [editor on GitHub](https://github.com/PutraBinangkit/putrabinangkit/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Ini merupakan repositori untuk website usaha rintisan tim Putra Binangkit, usaha rintisan kami melayana berbagaia macam soluis informasi & Teknologi.Tim kami berbasis di daerah Sukabumi, Jawa Barat, namun cakupan layanan kami menjangkau seluruh penjuru dunia.e resmi
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+silahkan kunjungi website resmi tim Putra Binangkit untuk mengetahui layanan lebih lanjut, 
+**[Putra Binangkit Website](http://www.putrabinangkit/)**
 
-### Markdown
-
+### Markdow
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
