@@ -3,7 +3,7 @@ layout: page
 title: Penjualan dan Perbaikan Komputer
 ---
 
-![Aplikasi Bisnis Terintegrasi](img/banner-2.jpg)
+![Penjualan dan Perbaikan Komputer](img/jual-komputer.jpg)
 
 <br />
 
