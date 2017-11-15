@@ -3,7 +3,7 @@ layout: page
 title: Instalasi infrastruktur Jaringan 
 ---
 
-![Aplikasi Bisnis Terintegrasi](img/banner-2.jpg)
+![Instalasi infrastruktur Jaringan Komputer](img/jaringan-komputer.jpg)
 
 <br />
 Menjadikan seluruh komputer pada *ecosystem* perusahaan atau organisasi anda terhubung pada sebuah jaringan dapat meningkatkan efektifitas operasional organisasi atau perusahaan anda, keuntungan dari terhubungnya seluruh komputer pada satu jaringan terintegrasi adalah seperti mudahnya berbagi file, dokumen, printer dan koneksi internet antar komputer.
