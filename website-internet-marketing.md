@@ -6,6 +6,9 @@ title: Layanan Pembuatan Website & Internet Marketing
 ## Website & Internet Marketing
 Dua hal yang sangat vital di era perkembangan teknologi dan informasi saat ini, tanpa dua hal tersebut besar kemungkinan bisnis anda akan tertinggal cukup jauh dibanding kompetitor anda yang telah memiki website sendiri dan melakukan promosi di Internet.
 <hr />
+
+![Jasa Pembuatan Website Sukabumi](img/pembuatan-website.jpg)
+
 <br />
 ## **Pembuatan & Penglolaan Website**
 **Putra Binangkit** menawarkan layanan pembuatan dan pengelolaan website untuk seluruh lapisan masyarakat yang membutuhkan kepemilikan website, baik itu personal, bisnis maupun organisasi. Website yang kami buat selalu menggunakan sentuhan teknologi terbaru dengan desain yang modern dan bisa diakses dari berbagai perangkat, seperti *SmartPhone, SmartTV, Tablet* dan tentu saja komputer.
@@ -16,7 +19,7 @@ Yaitu website yang dibuat untuk kepentingan pribadi, pengguna layanan ini bisa s
 
 <br />
 ### Website Korporasi / Organisasi
-Website ini diperuntukan bagi organisasi atau korporasi yang ingin memiliki website pribadi untuk sekedar menunjukan eksistensi di Internet atau juga digunakan secara optimal sebagai bagian dari program baranding dan promosi produk atau jasa yang dibuat oleh organisasi ataupun korporasi anda ke seluruh dunia atau target pasar anda.
+Website ini diperuntukan bagi organisasi atau korporasi yang ingin memiliki website pribadi untuk sekedar menunjukan eksistensi di Internet atau juga digunakan secara optimal sebagai bagian dari program branding dan promosi produk atau jasa yang dibuat oleh organisasi ataupun korporasi anda ke seluruh dunia atau target pasar anda secara spesifik.
 
 Layanan website korporasi atau organisasi ini sangat cocok untuk perusahaan nasional dan multinasional, grup musik, sekolah, universitas dan organisasi-organisasi lainnya.
 
@@ -37,6 +40,8 @@ Maka dengan itu kami menawarkan paket pembuatan website hemat, baik itu website 
 Memiliki website saja terkadang tidak cukup, diperlukan pemasaran untuk membuat website kita ramai dikunjungi dan produk atau layanan pada website kita dipesan oleh calon pelanggan.
 
 Kami, **Putra Binangkit** menawarkan jasa pemasaran / promosi di Internet untuk website anda, baik itu website yang anda pesan pada layanan kami ataupun website yang pesan dari pihak lain. Layanan Internet Marketing kami meliputi,
+
+![Jasa SEO & INternet Marketing](img/internet-marketing.jpg)
 
 <br />
 ### Search Engine Marketing (SEM)
