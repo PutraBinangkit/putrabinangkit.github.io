@@ -3,7 +3,7 @@ layout: page
 title: Pengelolaan Infrastruktur Informasi & Teknologi
 ---
 
-![Aplikasi Bisnis Terintegrasi](img/banner-2.jpg)
+![Pengelolaan Infrastruktur Informasi & Teknologi](img/pengelolaan-IT.jpg)
 
 <br />
 Infrastruktur Informasi dan Teknologi sangat perlu untuk dikelola dengn baik, karena hal tersebut telah menjadi bagian penting dalam kelangsungan organisasi dan perusahaan anda, ketika ada hal yang tidak bekerja dengan baik maka bisa berdampak sangat besar pada jalannya organisasi dan perusahaan anda.
