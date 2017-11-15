@@ -3,7 +3,7 @@ layout: page
 title: Sumber Daya Manusia
 ---
 
-![Aplikasi Bisnis Terintegrasi](img/banner-2.jpg)
+![Sumber Daya Manusia](img/sumber-daya-manusia.jpg)
 
 <br />
 Layanan ini diperuntukan bagi agensi atau perusahaan yang sedang membutuhkan sumber daya tamabahan untuk pekerjaan yang terkait dengan dunia informasi dan teknologi, penggunaan layanan ini bisa untuk *single project* ataupun kontrak dalam jangka waktu tertentu.
