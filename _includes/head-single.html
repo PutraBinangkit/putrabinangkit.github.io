@@ -13,7 +13,7 @@
   </title>
 
     
-<meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
+<meta itemprop="description" name="description" content="{{ page.description}}" />
 <link rel="canonical" href="{{ page.url | prepend: site.url }}"/>
 <meta property="og:locale" content="id_ID"/>
 <meta property="og:type" content="website"/>
