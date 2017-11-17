@@ -3,15 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="google-site-verification" content="cGnSivPO0RjURqr3vnnQUaTcJZeA_uba3UO9nP0fbL8" /> 
-     <title>
-    {% if page.title == "Home" %}
-      {{ site.title }} - {{ site.tagline }}
-    {% else %}
-      {{ page.title }} - {{ site.title }}
-    {% endif %}
-  </title>
-  
- 
+    <title>{{ site.title }} - {{ site.tagline }}</title> 
 <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
 <link rel="canonical" href="{{ page.url | prepend: site.url }}"/>
 <meta property="og:locale" content="id_ID"/>
