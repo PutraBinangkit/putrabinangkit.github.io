@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Penjualan dan Perbaikan Komputer
-description: Layanan penjualan Komputer untuk mendapatakan komputer yang sesuai dengan spesifikasi teknis kebutuhan anda serta perbaikna berbagai macam jenis komputer 
+description: Layanan penjualan Komputer untuk mendapatakan komputer yang sesuai dengan spesifikasi teknis kebutuhan anda serta perbaikan berbagai macam jenis komputer 
 ---
 
 ![Penjualan dan Perbaikan Komputer](img/jual-komputer.jpg)
