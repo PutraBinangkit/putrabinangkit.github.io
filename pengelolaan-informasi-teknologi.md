@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Pengelolaan Infrastruktur Informasi & Teknologi
+descriptipn: Layanan Pengelolaan Infrastruktur Informasi dan Teknologi yang kami tawarkan meliputi Komputer, Jaringan, Server, Website, Media Sosial dan Aplikasi
 ---
 
 ![Pengelolaan Infrastruktur Informasi & Teknologi](img/pengelolaan-IT.jpg)
