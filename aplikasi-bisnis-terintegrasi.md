@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Aplikasi Bisnis Terintegrasi
-descriptipn: Layanan aplikasi bisnis terintegrasi untuk menyelaraskan seluruh aplikasi bisnis anda kedalam sebuah jaringan untuk efisiensi operasional bisnis anda
+description: Layanan aplikasi bisnis terintegrasi untuk menyelaraskan seluruh aplikasi bisnis anda kedalam sebuah jaringan untuk efisiensi operasional bisnis anda
 ---
 
 
