@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Sumber Daya Manusia
+description: Layanan ini diperuntukan bagi agensi atau perusahaan yang sedang membutuhkan sumber daya tamabahan untuk pekerjaan yang terkait dengan dunia informasi dan teknologi
 ---
 
 ![Sumber Daya Manusia](img/sumber-daya-manusia.jpg)
