@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Tentang Kami
+description: Putra Binangkit merupakan usaha rintisan yang menyediakan berbagai macam layanan teknologi dan informasi yang ditujukan untuk segmen organisasi/bisnis dan perorangan
 ---
 
 **Putra Binangkit** merupakan usaha rintisan yang menyediakan berbagai macam layanan teknologi dan informasi yang ditujukan untuk segmen organisasi/bisnis dan perorangan. Kami memiliki sumber daya manusia dengan kualifikasi yang sangat baik pada bidangnya, selain itu seluruh SDM Putra Binangkit juga berkomitmen untuk tetap bisa beradaptasi dengan perkembangan teknologi terbaru dalam dunia informasi dan teknologi, untuk itu kami selalu mengalokasikan waktu khusus untuk mempelajari teknologi-teknologi terbaru sehingga pelanggan tetap bisa merasakan sentuhan teknologi terbaru pada setiap layanan kami.
