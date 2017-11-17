@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Instalasi infrastruktur Jaringan 
+title: Instalasi infrastruktur Jaringan
+descriptipn: Layanan installasi jaringan komputer untuk menghubungkan seluruh komputer kedalam satu jaringan demi kemudahan berbagi file, dokumen, Koneksi Internet dan integrasi aplikasi
 ---
 
 ![Instalasi infrastruktur Jaringan Komputer](img/jaringan-komputer.jpg)
