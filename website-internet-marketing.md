@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Layanan Pembuatan Website & Internet Marketing
+description: layanan jasa pengembangan dan pembuatan website serta layanan Internet Marketing untuk kebutuhan promosi barang dan jasa anda di Internet
 ---
 
 ## Website & Internet Marketing
