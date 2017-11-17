@@ -11,7 +11,247 @@
     {% endif %}
   </title>
   
-  {% seo %}
+ 
+<meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
+<link rel="canonical" href="{{ page.url | prepend: site.url }}"/>
+<meta property="og:locale" content="id_ID"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
+<meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+<meta property="og:site_name" content="{{ site.title }}"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
+<meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+<meta name="twitter:site" content="@BinangkitID"/>
+<meta name="twitter:creator" content="@BinangkitID"/>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"https:\/\/www.putrabinangkit.com\/","name":"Putra Binangkit","alternateName":"Layanan Informasi & Teknologi"}</script>    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+   "name": "{{ site.title }}",
+  "alternateName": "{{ site.title }}",
+  "url": "https://www.putrabinangkit.com/",
+  "logo": "https://www.putrabinangkit.com/img/logo-atas-black.png",
+  "email":"kontak@putrabinangkit.com",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+6289508165349",
+    "contactType": "customer service"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jl. Caringin - Cikukulu, Selaawi,",
+    "addressLocality": "Caringin, Sukabumi",
+    "addressRegion": "Jawa Barat",
+    "postalCode": "43154",
+    "addressCountry": "ID"
+  },	
+  "sameAs": [
+    "https://www.facebook.com/putrabinangkitID",
+    "https://twitter.com/BinangkitID",
+    "https://www.instagram.com/putrabinangkitid",
+    "https://www.linkedin.com/company/putra-binangkit/" ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Service",
+  "serviceType": "Layanan Informasi & Teknolgi",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "{{ site.title }}",
+    "image": "https://www.putrabinangkit.com/img/logo-atas-black.png",
+     "telephone": "+6289508165349",
+    "priceRange": "3.000.000",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jl. Caringin - Cikukulu, Selaawi,",
+    "addressLocality": "Caringin, Sukabumi",
+    "addressRegion": "Jawa Barat",
+    "postalCode": "43154",
+    "addressCountry": "ID"
+  }, 		
+ "url": "https://www.putrabinangkit.com/",
+ 
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "07:00",
+      "closes": "20:00"
+    }
+  ],
+   "areaServed": [{
+    "@type": "AdministrativeArea",
+    "name": "Jakarta" 
+  },{
+    "@type": "AdministrativeArea",
+    "name": "Bandung"
+  },{
+    "@type": "AdministrativeArea",
+    "name": "Bogor"
+  },{
+    "@type": "AdministrativeArea",
+    "name": "Tangerang"
+  },{
+    "@type": "AdministrativeArea",
+    "name": "Bekasi"
+  },{   
+    "@type": "AdministrativeArea",
+    "name": "Sukabumi"	    		 
+  },{
+    "@type": "AdministrativeArea",
+    "name": "Jawa Barat"
+}],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Layanan Informasi & Teknolgi",
+    "itemListElement": [
+      {
+        "@type": "OfferCatalog",
+        "name": "Website & Internet Marketing",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Pembuatan Website"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Internet Marketing"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Aplikasi Bisnis Terintegrasi",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Instalasi Aplikasi Bisnis"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Pengelolaan Aplikasi Bisnis"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Pengelolaan Infrastruktur IT",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "On site Staffing"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Remote Staffing"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Pengelolaan Informasi & Teknolgi"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Penjualan & Perbaikan Komputer",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Penjualan Komputer"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Perbaikan Komputer"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Instalasi Jaringan",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Instalasi Jaringan LAN"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Instalasi Jaringan WAN"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Sumber Daya Manusia",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Layanan Pelanggan"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDM"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  }
+  }
+  
+</script>
     <!-- Font Awesome -->
     <link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
