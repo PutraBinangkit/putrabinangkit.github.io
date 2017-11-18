@@ -15,8 +15,8 @@ layout: default
                     <!--Post-->
                     <div class="post-wrapper wow fadeIn" data-wow-delay="0.2s">
                         <!--Post data-->
-                         <h1 class="h1-responsive font-bold">{{ page.title }}</h1>
-                           <h6>Written by <a href="{{ site.baseurl }}"><strong>Putra Binangkit</strong></a>at {{ page.date | date_to_string }} in  {% for tag in site.categories %}<a href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a>{% endfor %}</h6>
+                         <h1 class="h1-responsive font-bold"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+                           <h6>Ditulis oleh <a href="{{ site.baseurl }}"><strong>Putra Binangkit</strong></a> pada {{ page.date | date_to_string }} di  {% for tag in site.categories %}<a href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a>{% endfor %}</h6>
 
 
                         <br>
@@ -28,7 +28,7 @@ layout: default
                     <!--/.Post-->
 
                     <hr>
-
+{% endfor %}
                     <!--Pagination-->
                     <div class="pagination">
   {% if paginator.next_page %}
@@ -47,7 +47,7 @@ layout: default
   {% endif %}
 </div>
                     <!--/.Pagination-->
- {% endfor %}
+
                 </div>
 		    
 		    {% include widget.html %}
