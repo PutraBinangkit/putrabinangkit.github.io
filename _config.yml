@@ -13,7 +13,6 @@ logo: '/img/logo-atas-black.png'
 gems:
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-seo-tag
   - jekyll-paginate
 markdown: kramdown
 kramdown:
@@ -42,15 +41,3 @@ author:
 nav:
   Home:           
     - '/'
-  Categories:           
-    - '/categories/'
-  Tags:
-    - '/tags/'
-  About:          
-    - '/about/'
-  Github Project: 
-    - 'https://cyberid.github.io'
-
-# Where are tags and categories displayed
-tag_page: '/tags/'
-category_page: '/categories/'
