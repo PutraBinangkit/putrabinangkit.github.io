@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<main>
+
+        <!--Main layout-->
+        <div class="container">
+            <div class="row">
+
+               <div class="col-lg-8 artikel">
+                {% for post in site.categories[page.category] %}
+                <h1 class="h1-responsive font-bold">{{ page.category }}</h1>
+				{% endfor %}
+                    <!--Post-->
+                    <div class="post-wrapper wow fadeIn" data-wow-delay="0.2s">
+
+                   
+<ul>
+ {% for post in site.categories[page.category] %}
+  <li><a href="{{ post.url | absolute_url }}">{{ post.title }}</a> {{ post.date | date_to_string }}</li>
+  {% endfor %}
+</ul>
+                        <!--Post data-->
+                     
+                    </div>
+                    <!--/.Post-->
+
+                    <hr>
+                   <!--Pagination-->
+
+
+                      <!--/.Pagination-->
+
+                </div>
+		    
+		    {% include widget.html %}
+            </div>
+        </div>
+        <!--/.Main layout-->
+
+ </main>
