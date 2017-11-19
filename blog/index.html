@@ -37,33 +37,54 @@ description: Blog resmi Putra Binangkit yang menyajikan informasi terkini seputa
                     <hr>
 {% endfor %}
                     <!--Pagination-->
-                  {% if paginator.total_pages > 1 %}
-<div class="binangkit-pagination"> 
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-  {% else %}
-    <span>&laquo; Prev</span>
-  {% endif %}
+
+
+{% if paginator.total_pages > 1 %}
+<nav>
+  <ul class="pagination pg-bluegrey pagination-lg">
+    <li class="page-item disabled">
+      {% if paginator.previous_page %}
+      <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+        <span class="sr-only">Previous</span>
+      </a>
+        {% else %}
+        <span aria-hidden="true">&laquo;</span>
+        <span class="sr-only">Previous</span>
+    </li>
+    {% endif %}
+
 
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
-      <span class="active">{{ page }}</span>
+    <li class="page-item active">
+    <span class="sr-only">{{ page }}</span>
+    </li>
     {% elsif page == 1 %}
-      <a href="/">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    <li class="page-item"><a class="page-link" href="/">{{ page }}</a></li>
+     {% else %}
+    <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
     {% endif %}
-  {% endfor %}
+    {% endfor %}
 
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-  {% else %}
-    <span>Next &raquo;</span>
-  {% endif %}
-</div>
+    {% if paginator.next_page %}
+    <li class="page-item">
+      <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+        <span class="sr-only">Next</span>
+      </a>
+      {% else %}
+       <span aria-hidden="true">&raquo;</span>
+        <span class="sr-only">Next</span>
+    </li>
+      {% endif %}
+  </ul>
+</nav>
 {% endif %}
 
-                    <!--/.Pagination-->
+
+
+                      <!--/.Pagination-->
 
                 </div>
 		    

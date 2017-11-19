@@ -217,18 +217,3 @@ hr.style1{
 .kartu-kontak{
 	margin-top:16px;
 }
-.binangkit-pagination {
-    text-align: center;
-}
-.binangkit-pagination a, .binangkit-pagination span {
-    padding: 7px 18px;
-    border: 1px solid #eee;
-    margin-left: -2px;
-    margin-right: -2px;
-    background-color: #ffffff;
-    display: inline-block;
-}
-.binangkit-pagination a:hover {    
-    background-color: #eaeaea;
-    color: #333;
-}
