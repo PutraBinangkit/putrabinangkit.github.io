@@ -17,11 +17,11 @@ layout: default
 
                    
 <ul>
- {% for post in site.categories[page.category] limit:3 %}
+ {% for post in site.categories[page.category] limit:1 %}
   <li><a href="{{ post.url | absolute_url }}">{{ post.title }}</a> {{ post.date | date_to_string }}</li>
   {% endfor %}
 </ul>
-<p> this is work?</p>
+
                         <!--Post data-->
                      
                     </div>
