@@ -9,15 +9,15 @@ layout: default
             <div class="row">
 
                <div class="col-lg-8 artikel">
-                {% for post in site.categories[page.category] %}
+              
                 <h1 class="h1-responsive font-bold">{{ page.category }}</h1>
-				{% endfor %}
+
                     <!--Post-->
                     <div class="post-wrapper wow fadeIn" data-wow-delay="0.2s">
 
                    
 <ul>
- {% for post in site.categories[page.category] %}
+ {% for post in site.categories[page.category] limit:3 %}
   <li><a href="{{ post.url | absolute_url }}">{{ post.title }}</a> {{ post.date | date_to_string }}</li>
   {% endfor %}
 </ul>
