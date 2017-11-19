@@ -11,7 +11,7 @@ description: Blog resmi Putra Binangkit yang menyajikan informasi terkini seputa
         <div class="container">
             <div class="row">
 
-                   <div class="col-lg-8 artikel">
+                <div class="col-lg-8 artikel">
 {% for post in paginator.posts %}
                     <!--Post-->
                     <div class="post-wrapper wow fadeIn" data-wow-delay="0.2s">
@@ -23,7 +23,6 @@ description: Blog resmi Putra Binangkit yang menyajikan informasi terkini seputa
     <a href="{{ site.baseurl }}/category/{{ category | slugify }}" class="post-tag">{{ category }}</a>
     {% endfor %}
     {% endif %}</h6>
-</h6>
 
 
                         <br>
@@ -36,23 +35,9 @@ description: Blog resmi Putra Binangkit yang menyajikan informasi terkini seputa
 
                     <hr>
 {% endfor %}
+<hr>
                     <!--Pagination-->
-                    <div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+                 
                     <!--/.Pagination-->
                     <!--/.Pagination-->
 
