@@ -69,9 +69,11 @@ description: Blog resmi Putra Binangkit yang menyajikan informasi terkini seputa
     <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
      {% else %}
     <li class="page-item">
-    <a class="page-link" href="{{ site.baseurl }}/blog/page:num{{ replace: ':num', page }}">{{ page }}</a>
+
+    <a class="page-link 2" href="{{ site.baseurl }}/blog/page{{ replace: ':num', page }}:num">{{ page }}</a>
+    <a class="page-link 3" href="{{ site.baseurl }}{{/blog/page:num | replace: ':num', page }}">{{ page }}</a>
     </li>  <!--/.aluscan?-->
-    <p>Ganti deui bray, sugan alus nu ayenamah,</p>
+    <p>Ganti deui bray, tah anu yena aya 3 jenis, sugan atuhnya</p>
     {% endif %}
     {% endfor %}
 
