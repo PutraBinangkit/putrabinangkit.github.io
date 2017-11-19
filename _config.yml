@@ -25,6 +25,7 @@ paginate: 1
 paginate_path: 'blog/page:num'
 permalink: blog/:title/
 
+
 # About/contact
 author:
   name: Putra Binangkit
