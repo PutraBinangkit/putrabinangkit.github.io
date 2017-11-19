@@ -48,10 +48,12 @@ description: Blog resmi Putra Binangkit yang menyajikan informasi terkini seputa
         <span aria-hidden="true">&laquo;</span>
         <span class="sr-only">Previous</span>
       </a>
-        {% else %}
+    </li>
+      {% else %}
+       <li class="page-item disabled">
         <span aria-hidden="true">&laquo;</span>
         <span class="sr-only">Previous</span>
-    </li>
+        </li>
     {% endif %}
 
 
@@ -61,7 +63,7 @@ description: Blog resmi Putra Binangkit yang menyajikan informasi terkini seputa
     <span class="sr-only">{{ page }}</span>
     </li>
     {% elsif page == 1 %}
-    <li class="page-item"><a class="page-link" href="/">{{ page }}</a></li>
+    <li class="page-item"><a class="page-link" href="blog/">{{ page }}</a></li>
      {% else %}
     <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
     {% endif %}
@@ -73,10 +75,12 @@ description: Blog resmi Putra Binangkit yang menyajikan informasi terkini seputa
         <span aria-hidden="true">&raquo;</span>
         <span class="sr-only">Next</span>
       </a>
-      {% else %}
+    </li>
+    {% else %}
+    <li class="page-item">
        <span aria-hidden="true">&raquo;</span>
         <span class="sr-only">Next</span>
-    </li>
+        </li>
       {% endif %}
   </ul>
 </nav>
