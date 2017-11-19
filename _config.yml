@@ -22,7 +22,7 @@ sass:
   style: compressed
   sass_dir: _scss    
 paginate: 3
-paginate_path: '/page:num'
+paginate_path: 'blog/page:num'
 permalink: /:title/
 
 # About/contact
