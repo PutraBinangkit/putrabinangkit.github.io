@@ -41,7 +41,7 @@ description: Blog resmi Putra Binangkit yang menyajikan informasi terkini seputa
 
 {% if paginator.total_pages > 1 %}
 <nav>
-  <ul class="pagination pg-bluegrey pagination-lg">
+  <ul class="pagination pg-bluegrey">
     <li class="page-item disabled">
       {% if paginator.previous_page %}
       <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous">
@@ -63,7 +63,7 @@ description: Blog resmi Putra Binangkit yang menyajikan informasi terkini seputa
     <span class="sr-only">{{ page }}</span>
     </li>
     {% elsif page == 1 %}
-    <li class="page-item"><a class="page-link" href="blog/">{{ page }}</a></li>
+    <li class="page-item"><a class="page-link" href="{{ site.baseurl }}/blog">{{ page }}</a></li>
      {% else %}
     <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
     {% endif %}
