@@ -69,9 +69,9 @@ description: Blog resmi Putra Binangkit yang menyajikan informasi terkini seputa
     <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
      {% else %}
     <li class="page-item">
-    <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    <a class="page-link" href="{{ paginator.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
     </li>  <!--/.aluscan?-->
-    <p>sugan ecreg lah anying</p>
+    <p>Aduh anying ngahesekeun</p>
     {% endif %}
     {% endfor %}
 
