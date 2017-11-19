@@ -1,26 +1,29 @@
 ---
 layout: default
+title: Kumpulan Arsip Semua Topik
+description: Kumpulan arsip artikel yang telah kami publikasikan dengan berbagai macam topik artikel, memberikan anda informasi teraktual dan terkini
 ---
 
-<main>
 
-        <!--Main layout-->
-        <div class="container">
+<div class="container">
             <div class="row">
 
                <div class="col-lg-8 artikel">
-              
-                <h1 class="h1-responsive font-bold">{{ page.category }}</h1>
-
+	 {% for category in site.categories %}
+    <h3 class="h3-responsive font-bold"><a href="#{{ category[0] | slugify }}" class="post-tag">{{ category[0] }}</a></h3>
+    {% endfor %}
                     <!--Post-->
                     <div class="post-wrapper wow fadeIn" data-wow-delay="0.2s">
 
                    
+{% for category in site.categories %}
 <ul>
- {% for post in site.categories[page.category] limit:20 %}
-  <li><a href="{{ post.url | absolute_url }}">{{ post.title }}</a> {{ post.date | date_to_string }}</li>
-  {% endfor %}
+   {% for post in tag[1] %}
+  <li><a href="{{ post.url | absolute_url }}">{{ post.title }}">{{ post.title }}</a> {{ post.date | date_to_string }}</li>
+   {% endfor %}
 </ul>
+   {% endfor %}
+
 
                         <!--Post data-->
                      
