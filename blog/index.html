@@ -65,15 +65,19 @@ description: Blog resmi Putra Binangkit yang menyajikan informasi terkini seputa
     </span>
     </li>
     {% elsif page == 1 %}
-    <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+    <li class="page-item">
+    <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
      {% else %}
-    <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>  <!--/.aluscan?--><p>sugan ecreg lah anying</p>
+    <li class="page-item">
+    <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    </li>  <!--/.aluscan?-->
+    <p>sugan ecreg lah anying</p>
     {% endif %}
     {% endfor %}
 
     {% if paginator.next_page %}
     <li class="page-item">
-      <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }" aria-label="Next">
+      <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next">
         <span aria-hidden="true">&raquo;</span>
         <span class="sr-only">Next</span>
       </a>
