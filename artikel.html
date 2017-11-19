@@ -1,5 +1,59 @@
 ---
-layout: index-posts
+layout: default
 title: Blog & Informasi Teknologi Terkini
 description: Blog resmi Putra Binangkit yang menyajikan informasi terkini seputar dunia Informasi & Teknologi dan pembaharuan produk serta layanan kami
 ---
+
+
+ <main>
+
+        <!--Main layout-->
+        <div class="container">
+            <div class="row">
+
+               <div class="col-lg-8 artikel">
+{% for post in paginator.posts %}
+                    <!--Post-->
+                    <div class="post-wrapper wow fadeIn" data-wow-delay="0.2s">
+                        <!--Post data-->
+                         <h1 class="h1-responsive font-bold"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+                           <h6>Ditulis oleh <a href="{{ site.baseurl }}"><strong>Putra Binangkit</strong></a> pada {{ post.date | date_to_string }} di  {% for tag in site.categories %}<a href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a>{% endfor %}</h6>
+
+
+                        <br>
+                        <!--Post excerpt-->
+						  {{ post.excerpt }}
+                        <!--"Read more" button-->
+                        <a href="{{ site.baseurl }}{{ post.url }}"><button class="btn btn-info unique-color">Read more</button></a>
+                    </div>
+                    <!--/.Post-->
+
+                    <hr>
+{% endfor %}
+                    <!--Pagination-->
+                    <div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
+                    <!--/.Pagination-->
+
+                </div>
+		    
+		    {% include widget.html %}
+            </div>
+        </div>
+        <!--/.Main layout-->
+
+    </main>
