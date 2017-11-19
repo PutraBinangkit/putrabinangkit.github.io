@@ -67,7 +67,7 @@ description: Blog resmi Putra Binangkit yang menyajikan informasi terkini seputa
     {% elsif page == 1 %}
     <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
      {% else %}
-    <li class="page-item"><a class="page-link" href="{{ site.url | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>  <!--/.aluscan?--><p>baleg atuh sateh</p>
+    <li class="page-item"><a class="page-link" href="{{ site.paginate_path | replace: '//', '/' | replace: 'blog', '' | replace: ':num', page }}">{{ page }}</a></li>  <!--/.aluscan?--><p>baleg teu anying</p>
     {% endif %}
     {% endfor %}
 
