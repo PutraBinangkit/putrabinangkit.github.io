@@ -220,3 +220,7 @@ hr.style1{
 .catpage{
 	margin-top: 50px;
 }
+.hot-trend{
+	max-height:400px;
+	overflow: hidden;
+}

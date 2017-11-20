@@ -257,8 +257,6 @@
 </head>
 
 <body id="myPage" data-offset="60">
-<div class="container">
-
  <header>
 
 
@@ -278,7 +276,7 @@
 
  <nav class="navbar navbar-expand-lg navbar-custom navbar-white">
  <div class="container">
-    <h2><a class="navbar-brand" href="{{ site.baseurl }}/blog/"><strong>Blog</strong></a></h2>
+    <h2><a class="navbar-brand nav-link font-bold" href="{{ site.baseurl }}/blog/">Blog</a></h2>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -286,7 +284,7 @@
     <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="{{ site.baseurl }}/blog/topik/teknologi/"><strog>The Nex Big Things</strog></span></a>
+                <a class="nav-link font-bold" href="{{ site.baseurl }}/blog/topik/teknologi/"><strog>The Nex Big Things</strog></span></a>
             </li>
            
            <li class="dropdown nav-item">
@@ -337,6 +335,7 @@
   </div>
 </nav>
 
+{% if page.url == '/blog/' %}
 {% for post in site.categories.Teknologi limit:1 %}
 <section class="hot-trend">
 <div class="row">
@@ -373,7 +372,8 @@
 </div>
 </section>
 {% endfor %}
+{% endif %}
 </header>
-</div> <!--div panel-->
+
 
     <!-- Navigation & Intro -->
