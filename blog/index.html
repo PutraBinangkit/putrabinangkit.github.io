@@ -11,7 +11,7 @@ description: Blog resmi Putra Binangkit yang menyajikan informasi terkini seputa
         <div class="container">
             <div class="row">
 
-               <div class="col-lg-8 artikel">
+               <div class="col-lg-8 artikel clearfix">
 {% for post in paginator.posts %}
                     <!--Post-->
                     <div class="post-wrapper wow fadeIn" data-wow-delay="0.2s">
@@ -26,7 +26,7 @@ description: Blog resmi Putra Binangkit yang menyajikan informasi terkini seputa
 </h6>
 
                         <br>
-                         <div class="view overlay hm-white-slight">
+                         <div class="view overlay hm-white-slight featureimage">
      {% assign foundImage = 0 %}
       {% assign images = post.content | split:"<img " %}
       {% for image in images %}
