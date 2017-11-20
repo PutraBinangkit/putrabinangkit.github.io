@@ -271,7 +271,7 @@
   </div>
 </div>
 
- <nav class="navbar navbar-expand-lg navbar-customblog sticky-top navbar-white">
+ <nav class="navbar navbar-expand-lg topnavcol sticky-top navbar-white">
  <div class="container">
     <h2><a class="navbar-brand nav-link font-bold" href="{{ site.baseurl }}/blog/">Blog</a></h2>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
@@ -289,7 +289,7 @@
                     aria-expanded="false">
              	Topik
                 </a>
-                <div class="dropdown-menu secondmenublog" aria-labelledby="navbarDropdownMenuLink">
+                <div class="dropdown-menu secondmenu" aria-labelledby="navbarDropdownMenuLink">
                 {% for category in site.categories %}
                     <a class="dropdown-item nav-link" href="{{ category[0] | slugify }}">{{ category[0] }}</a>
                  {% endfor %}          
@@ -301,7 +301,7 @@
                     aria-expanded="false">
                Layanan Kami
                 </a>
-                <div class="dropdown-menu secondmenublog" aria-labelledby="navbarDropdownMenuLink">
+                <div class="dropdown-menu secondmenu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item nav-link" href="{{ site.baseurl }}/website-internet-marketing/">Website & Internet Marketing</a>
                     <a class="dropdown-item nav-link" href="{{ site.baseurl }}/aplikasi-bisnis-terintegrasi/">Aplikasi Bisnis Terintegrasi</a>
                     <a class="dropdown-item nav-link" href="{{ site.baseurl }}/pengelolaan-informasi-teknologi/">Pengelolaan Infrastruktur IT</a>
@@ -317,16 +317,16 @@
         </ul>
         <span class="navbar-text">
               <a href="https://www.facebook.com/putrabinangkitid
-" rel="nofollow" class="icons-sm fb-ic ml-0"><i class="fa fa-facebook white-text mr-lg-4"> </i></a>
+" rel="nofollow" class="icons-sm fb-ic ml-0"><i class="fa fa-facebook black-text mr-lg-4"> </i></a>
                     <!--Twitter-->
-                    <a href="https://twitter.com/BinangkitID" rel="nofollow" class="icons-sm tw-ic"><i class="fa fa-twitter white-text mr-lg-4"> </i></a>
+                    <a href="https://twitter.com/BinangkitID" rel="nofollow" class="icons-sm tw-ic"><i class="fa fa-twitter black-text mr-lg-4"> </i></a>
                     <!--Google +-->
-                    <a class="icons-sm gplus-ic"><i class="fa fa-google-plus white-text mr-lg-4"> </i></a>
+                    <a class="icons-sm gplus-ic"><i class="fa fa-google-plus black-text mr-lg-4"> </i></a>
                     <!--Linkedin-->
                     <a href="https://www.linkedin.com/company/putra-binangkit/
-" rel="nofollow" class="icons-sm li-ic"><i class="fa fa-linkedin white-text mr-lg-4"> </i></a>
+" rel="nofollow" class="icons-sm li-ic"><i class="fa fa-linkedin black-text mr-lg-4"> </i></a>
                     <!--Instagram-->
-                    <a href="https://www.instagram.com/putrabinangkitid" rel="nofollow" class="icons-sm ins-ic"><i class="fa fa-instagram white-text mr-lg-4"> </i></a>
+                    <a href="https://www.instagram.com/putrabinangkitid" rel="nofollow" class="icons-sm ins-ic"><i class="fa fa-instagram black-text mr-lg-4"> </i></a>
         </span>
     </div>
   </div>
@@ -344,7 +344,7 @@
 
             {% if foundImage == 0 %}
                 {% assign html = image | split:"/>" | first %}
-                <img {{ html }} class="img-fluid" />
+                <img {{ html }} />
                 {% assign foundImage = 1 %}
             {% endif %}
         {% endif %}
