@@ -25,8 +25,25 @@ description: Blog resmi Putra Binangkit yang menyajikan informasi terkini seputa
     {% endif %}</h6>
 </h6>
 
-
                         <br>
+                         <div class="view overlay hm-white-slight">
+     {% assign foundImage = 0 %}
+      {% assign images = post.content | split:"<img " %}
+      {% for image in images %}
+        {% if image contains 'src' %}
+
+            {% if foundImage == 0 %}
+                {% assign html = image | split:"/>" | first %}
+                <img {{ html }} class="img-fluid" />
+                {% assign foundImage = 1 %}
+            {% endif %}
+        {% endif %}
+      {% endfor %}
+        <a>
+            <div class="mask"></div>
+        </a>
+    </div>
+     <br>
                         <!--Post excerpt-->
 						  {{ post.excerpt }}
                         <!--"Read more" button-->
