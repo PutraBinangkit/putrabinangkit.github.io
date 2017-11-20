@@ -221,11 +221,11 @@ hr.style1{
 }
 
  .blog-logo{
- 	margin-top: 30px;
+ 	margin-top: 5px;
  }
 
 .hot-trend{
-	height: 350px;
+	height: 400px;
 	overflow: hidden;
 }
  
@@ -240,4 +240,19 @@ hr.style1{
         .navbar.navbar-white .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
       color: rgba(0, 0, 0, 0.75); 
   	}
- 
+ .secondmenublog{
+	padding-top: 15px;
+	border: none;
+	padding-bottom: -30px;	     
+}
+.navbar .secondmenublog a{
+  
+	color: #757575 !important;
+}
+
+ .navbar .secondmenublog a:hover {
+        color: rgba(0, 0, 0, 0.75) !important;
+        background: #eaeaea !important;
+          -webkit-transition: 0.35s;
+    	transition: 0.35s; 
+         }

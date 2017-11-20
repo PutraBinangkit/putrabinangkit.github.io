@@ -273,7 +273,7 @@
   </div>
 </div>
 
- <nav class="navbar navbar-expand-lg sticky-top navbar-white">
+ <nav class="navbar navbar-expand-lg navbar-white">
  <div class="container">
     <h2><a class="navbar-brand nav-link font-bold" href="{{ site.baseurl }}/blog/">Blog</a></h2>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
@@ -291,7 +291,7 @@
                     aria-expanded="false">
              	Topik
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <div class="dropdown-menu secondmenublog" aria-labelledby="navbarDropdownMenuLink">
                 {% for category in site.categories %}
                     <a class="dropdown-item" href="{{ category[0] | slugify }}">{{ category[0] }}</a>
                  {% endfor %}          
@@ -303,7 +303,7 @@
                     aria-expanded="false">
                Layanan Kami
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <div class="dropdown-menu secondmenublog" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="{{ site.baseurl }}/website-internet-marketing/">Website & Internet Marketing</a>
                     <a class="dropdown-item" href="{{ site.baseurl }}/aplikasi-bisnis-terintegrasi/">Aplikasi Bisnis Terintegrasi</a>
                     <a class="dropdown-item" href="{{ site.baseurl }}/pengelolaan-informasi-teknologi/">Pengelolaan Infrastruktur IT</a>
