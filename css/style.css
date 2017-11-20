@@ -234,19 +234,6 @@ hr.style1{
 	border-bottom: solid 1px #eaeaea;
 }
  
- .navbar.navbar-white .navbar-brand .breadcrumb .nav-item .nav-link,
-  .navbar.navbar-white .navbar-brand .navbar-nav .nav-item .nav-link
-  {
-    color: #757575;
-    -webkit-transition: 0.35s;
-    transition: 0.35s;
-   }
-    .navbar.navbar-white .navbar-brand .breadcrumb .nav-item .nav-link:hover,
-    .navbar.navbar-white .navbar-brand .navbar-nav .nav-item .nav-link:hover
-     {
-      color: rgba(0, 0, 0, 0.75); 
-  	}
-
  .secondmenublog{
 	padding-top: 16px;
 	border: none;
@@ -265,6 +252,7 @@ hr.style1{
          }
 .navbar .nav-cust a{
 		color: #757575 !important;
+		margin-left: 10px;
 }
 
 .navbar .nav-cust a:hover{
@@ -275,5 +263,5 @@ hr.style1{
 }
 .juduljudulan{
 	margin-top: 50px;
-	margin-left: 30px;
+	margin-left: 50px;
 }
