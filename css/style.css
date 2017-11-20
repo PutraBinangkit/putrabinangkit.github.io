@@ -221,7 +221,7 @@ hr.style1{
 }
 
  .blog-logo{
- 	margin-top: 5px;
+ 	padding-top: 5px;
  }
 
 .hot-trend{
@@ -229,18 +229,18 @@ hr.style1{
 	overflow: hidden;
 }
 .meta-trend{
-	max-height: 400px;
+	height: 400px;
 	border-bottom: solid 1px #eaeaea;
 }
  
- .navbar.navbar-white .breadcrumb .nav-item .nav-link,
-  .navbar.navbar-white .navbar-nav .nav-item .nav-link,
+ .navbar.navbar-white .navbar-brand .breadcrumb .nav-item .nav-link,
+  .navbar.navbar-white .navbar-brand .navbar-nav .nav-item .nav-link,
     .navbar.navbar-white .navbar-nav .nav-item .dropdown-menu .dropdown-item{
     color: #757575;
     -webkit-transition: 0.35s;
     transition: 0.35s; }
-    .navbar.navbar-white .breadcrumb .nav-item .nav-link:hover,
-    .navbar.navbar-white .navbar-nav .nav-item .nav-link:hover,
+    .navbar.navbar-white .navbar-brand .breadcrumb .nav-item .nav-link:hover,
+    .navbar.navbar-white .navbar-brand .navbar-nav .nav-item .nav-link:hover,
         .navbar.navbar-white .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
       color: rgba(0, 0, 0, 0.75); 
   	}
