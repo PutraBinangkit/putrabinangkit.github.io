@@ -226,7 +226,7 @@ hr.style1{
  }
 
 .hot-trend{
-	height: 500px;
+	height: 400px;
 	overflow: hidden;
 }
  
@@ -253,5 +253,5 @@ hr.style1{
         background: #eaeaea !important;
           -webkit-transition: 0.35s;
     	transition: 0.35s; 
-    	font-weight: bold;
+    
          }
