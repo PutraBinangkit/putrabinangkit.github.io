@@ -221,9 +221,9 @@ hr.style1{
 }
 .hot-trend, 
 .toptrend{
-	height:500px;
-	overflow: hidden;
+	min-height: 300px;
+	overflow-y: hidden
 }
  .blog-logo img{
- 	margin-top: 5px;
+ 	margin-top: 10px;
  }
