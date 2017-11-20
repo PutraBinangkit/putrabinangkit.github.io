@@ -221,14 +221,9 @@ hr.style1{
 }
 .hot-trend, 
 .toptrend{
-	max-height:450px;
+	height:500px;
 	overflow: hidden;
 }
-.img-fluidss{
-  max-width: 100%;
-  height: auto;
-  overflow: hidden;
- }
- .blog-logo{
+ .blog-logo img{
  	margin-top: 5px;
  }
