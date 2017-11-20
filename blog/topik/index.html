@@ -8,22 +8,19 @@ description: Kumpulan arsip artikel yang telah kami publikasikan dengan berbagai
 <div class="container">
             <div class="row">
 
-               <div class="col-lg-8 artikel">
-	 {% for category in site.categories %}
-    <h3 class="h3-responsive font-bold"><a href="{{ category[0] | slugify }}" class="post-tag">{{ category[0] }}</a></h3>
-    {% endfor %}
-                    <!--Post-->
+       <!--Post-->
                     <div class="post-wrapper wow fadeIn" data-wow-delay="0.2s">
 
                    
 {% for category in site.categories %}
+<h6 class="h6-responsive font-bold"><a href="{{ category[0] | slugify }}" class="post-tag">{{ category[0] }}</a></h6>
 <ul>
    {% for post in category[1] %}
   <li><a href="{{ post.url | absolute_url }}">{{ post.title }}</a> {{ post.date | date_to_string }}</li>
    {% endfor %}
 </ul>
    {% endfor %}
-   
+
 
 
                         <!--Post data-->
