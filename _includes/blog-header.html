@@ -1,0 +1,380 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="google-site-verification" content="cGnSivPO0RjURqr3vnnQUaTcJZeA_uba3UO9nP0fbL8" /> 
+    <title>Blog - {{ site.title }}</title> 
+<meta itemprop="description" name="description" content="{{ page.description }}" />
+<link rel="canonical" href="{{ page.url | prepend: site.url }}"/>
+<meta property="og:locale" content="id_ID"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
+<meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+<meta property="og:site_name" content="{{ site.title }}"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
+<meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+<meta name="twitter:site" content="@BinangkitID"/>
+<meta name="twitter:creator" content="@BinangkitID"/>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"https:\/\/www.putrabinangkit.com\/","name":"Putra Binangkit","alternateName":"Layanan Informasi & Teknologi"}</script>    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+   "name": "{{ site.title }}",
+  "alternateName": "{{ site.title }}",
+  "url": "https://www.putrabinangkit.com/",
+  "logo": "https://www.putrabinangkit.com/img/logo-atas-black.png",
+  "email":"kontak@putrabinangkit.com",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+6289508165349",
+    "contactType": "customer service"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jl. Caringin - Cikukulu, Selaawi,",
+    "addressLocality": "Caringin, Sukabumi",
+    "addressRegion": "Jawa Barat",
+    "postalCode": "43154",
+    "addressCountry": "ID"
+  },	
+  "sameAs": [
+    "https://www.facebook.com/putrabinangkitID",
+    "https://twitter.com/BinangkitID",
+    "https://www.instagram.com/putrabinangkitid",
+    "https://www.linkedin.com/company/putra-binangkit/" ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Service",
+  "serviceType": "Layanan Informasi & Teknolgi",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "{{ site.title }}",
+    "image": "https://www.putrabinangkit.com/img/logo-atas-black.png",
+     "telephone": "+6289508165349",
+    "priceRange": "3.000.000",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jl. Caringin - Cikukulu, Selaawi,",
+    "addressLocality": "Caringin, Sukabumi",
+    "addressRegion": "Jawa Barat",
+    "postalCode": "43154",
+    "addressCountry": "ID"
+  }, 		
+ "url": "https://www.putrabinangkit.com/",
+ 
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "07:00",
+      "closes": "20:00"
+    }
+  ],
+   "areaServed": [{
+    "@type": "AdministrativeArea",
+    "name": "Jakarta" 
+  },{
+    "@type": "AdministrativeArea",
+    "name": "Bandung"
+  },{
+    "@type": "AdministrativeArea",
+    "name": "Bogor"
+  },{
+    "@type": "AdministrativeArea",
+    "name": "Tangerang"
+  },{
+    "@type": "AdministrativeArea",
+    "name": "Bekasi"
+  },{   
+    "@type": "AdministrativeArea",
+    "name": "Sukabumi"	    		 
+  },{
+    "@type": "AdministrativeArea",
+    "name": "Jawa Barat"
+}],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Layanan Informasi & Teknolgi",
+    "itemListElement": [
+      {
+        "@type": "OfferCatalog",
+        "name": "Website & Internet Marketing",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Pembuatan Website"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Internet Marketing"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Aplikasi Bisnis Terintegrasi",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Instalasi Aplikasi Bisnis"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Pengelolaan Aplikasi Bisnis"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Pengelolaan Infrastruktur IT",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "On site Staffing"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Remote Staffing"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Pengelolaan Informasi & Teknolgi"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Penjualan & Perbaikan Komputer",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Penjualan Komputer"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Perbaikan Komputer"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Instalasi Jaringan",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Instalasi Jaringan LAN"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Instalasi Jaringan WAN"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Sumber Daya Manusia",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Layanan Pelanggan"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDM"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  }
+  }
+  
+</script>
+    <!-- Font Awesome -->
+    <link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="{{ site.baseurl }}/css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="{{ site.baseurl }}/css/style.css" rel="stylesheet">
+    
+</head>
+
+<body>
+
+ <header>
+
+
+<div class="container header">
+  <div class="row">
+    <div class="col">
+<a class="navbar-brand float-left" href="{{ site.url }}/" title="{{ site.title }}"> 
+        <img src="{{ site.url }}/img/logo-atas-black.png" height="40" class="d-inline-block align-top" alt="PutraBinangkit" title="Blog - {{ site.title }}"></a>
+    </div>
+    <div class="col">
+    <a class="nav-link font-up float-right" href="{{ site.baseurl }}/kontak/" data-offset="20">
+      <button class="btn btn-success z-depth-0"><i class="fa fa-envelope mr-1"></i> Hubungi Kami</button>
+    </a>
+    </div>
+  </div>
+  </div>
+<hr>
+
+  
+<nav class="navbar navbar-expand-lg navbar-white">
+    <h2><a class="navbar-brand" href="{{ site.baseurl }}/blog/">Blog</a></h2>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="{{ site.baseurl }}/blog/topik/teknologi/"><strog>The Nex Big Things</strog></span></a>
+            </li>
+           
+           <li class="dropdown nav-item">
+                <a class="nav-link font-up dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+             	Topik
+                </a>
+                <div class="dropdown-menu secondmenu" aria-labelledby="navbarDropdownMenuLink">
+                {% for category in site.categories %}
+                    <a class="dropdown-item" href="{{ category[0] | slugify }}">{{ category[0] }}</a>
+                 {% endfor %}          
+                </div>
+            </li>
+
+            <li class="dropdown nav-item">
+                <a class="nav-link font-up dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+               Layanan Kami
+                </a>
+                <div class="dropdown-menu secondmenu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="{{ site.baseurl }}/website-internet-marketing/">Website & Internet Marketing</a>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/aplikasi-bisnis-terintegrasi/">Aplikasi Bisnis Terintegrasi</a>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/pengelolaan-informasi-teknologi/">Pengelolaan Infrastruktur IT</a>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/penjualan-perbaikan-komputer/">Penjualan & Perbaikan Komputer</a>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/instalasi-jaringan/">Instalasi Jaringan</a>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/sumber-daya-manusia/">Sumber Daya Manusia</a>                
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link font-up" href="{{ site.baseurl }}/about-us/" data-offset="20">Tentang Kami</a>
+            </li>
+                 
+        </ul>
+        <span class="navbar-text white-text">
+              <a href="https://www.facebook.com/putrabinangkitid
+" rel="nofollow" class="icons-sm fb-ic ml-0"><i class="fa fa-facebook white-text mr-lg-4"> </i></a>
+                    <!--Twitter-->
+                    <a href="https://twitter.com/BinangkitID" rel="nofollow" class="icons-sm tw-ic"><i class="fa fa-twitter white-text mr-lg-4"> </i></a>
+                    <!--Google +-->
+                    <a class="icons-sm gplus-ic"><i class="fa fa-google-plus white-text mr-lg-4"> </i></a>
+                    <!--Linkedin-->
+                    <a href="https://www.linkedin.com/company/putra-binangkit/
+" rel="nofollow" class="icons-sm li-ic"><i class="fa fa-linkedin white-text mr-lg-4"> </i></a>
+                    <!--Instagram-->
+                    <a href="https://www.instagram.com/putrabinangkitid" rel="nofollow" class="icons-sm ins-ic"><i class="fa fa-instagram white-text mr-lg-4"> </i></a>
+        </span>
+    </div>
+</nav>
+{% for page in (1..paginator.total_pages) %}
+{% if page == 1 %}
+{% for post in site.categories[Teknologi] limit:1 %}
+<section class="hot-trend">
+<div class="row">
+    <div class="col-8">
+     <div class="full-bg-img mask">
+     {% assign foundImage = 0 %}
+      {% assign images = post.content | split:"<img " %}
+      {% for image in images %}
+        {% if image contains 'src' %}
+
+            {% if foundImage == 0 %}
+                {% assign html = image | split:"/>" | first %}
+                <img {{ html }} class="img-fluid" />
+                {% assign foundImage = 1 %}
+            {% endif %}
+        {% endif %}
+      {% endfor %}
+     </div>   
+    </div>
+    <div class="col-4">
+      <div class="meta-trend">
+      <br>
+      <p class="font-bold">{{ category }}</p>
+      <h1 class="h1-responsive font-bold"><a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a></h1>
+     <br>
+     <p class="trend-excerpt">{{ post.excerpt }}</p>
+     <br>
+      <a href="{{ site.baseurl }}{{ post.url }}"><button class="btn btn-info unique-color">Read more</button></a>
+      </div>
+      <hr>
+    </div>
+</div>
+</section>
+{% endfor %}
+{% else %}
+</header>
+{% endif %}
+{% endfor %}
+    <!-- Navigation & Intro -->
