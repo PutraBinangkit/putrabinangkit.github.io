@@ -260,10 +260,10 @@
   <div class="row">
    <div class="container">
     <div class="col">
-    <div class="blog-logo align-middle">
+
     <a class="navbar-brand float-left align-middle" href="{{ site.url }}/" title="{{ site.title }}"> 
         <img src="{{ site.url }}/img/logo-atas-black.png" height="50" class="align-middle" alt="PutraBinangkit" title="Blog - {{ site.title }}"></a>
-    </div>    
+    
     </div>
     <div class="col">
     <a class="nav-link font-up float-right" href="{{ site.baseurl }}/kontak/" data-offset="20">
@@ -287,7 +287,7 @@
             </li>
            
            <li class="dropdown nav-item">
-                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                <a href="{{ site.baseurl }}/blog/topik/" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
                     aria-expanded="false">
              	Topik
                 </a>
@@ -368,6 +368,10 @@
     </div>
 </div>
 </section>
+
+<div class="juduljudulan">
+<p class="display-4">Artikel Terikini</p>
+</div>
 {% endfor %}
 {% endif %}
 
