@@ -334,11 +334,11 @@
 </nav>
 
 {% if page.url == "{{ site.baseurl }}/blog/" %}
-{% for post in site.categories[Teknologi] limit:1 %}
+{% for post in site.categories.Teknologi limit:1 %}
 <section class="hot-trend">
 <div class="row">
     <div class="col-8">
-     <div class="full-bg-img mask">
+     <div class="mask">
      {% assign foundImage = 0 %}
       {% assign images = post.content | split:"<img " %}
       {% for image in images %}
