@@ -221,6 +221,10 @@ hr.style1{
 	margin-top: 50px;
 }
 .hot-trend{
-	max-height:400px;
+	max-height:500px;
 	overflow: hidden;
 }
+.img-fluidss{
+  max-width: 100%;
+  overflow: hidden;
+  }

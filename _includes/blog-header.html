@@ -260,8 +260,9 @@
  <header>
 
 
-<div class="header-blog">
+
   <div class="row">
+  <div class="header-blog">
     <div class="col">
     <a class="navbar-brand float-left align-middle" href="{{ site.url }}/" title="{{ site.title }}"> 
         <img src="{{ site.url }}/img/logo-atas-black.png" height="50" class="d-inline-block align-middle" alt="PutraBinangkit" title="Blog - {{ site.title }}"></a>
@@ -272,7 +273,7 @@
     </a>
     </div>
   </div>
-  </div>
+</div>
 
  <nav class="navbar navbar-expand-lg navbar-custom navbar-white">
  <div class="container">
@@ -348,7 +349,7 @@
 
             {% if foundImage == 0 %}
                 {% assign html = image | split:"/>" | first %}
-                <img {{ html }} class="img-fluid" />
+                <img {{ html }} class="img-fluidss" />
                 {% assign foundImage = 1 %}
             {% endif %}
         {% endif %}
