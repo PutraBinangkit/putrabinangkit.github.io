@@ -293,7 +293,7 @@
                 </a>
                 <div class="dropdown-menu secondmenublog" aria-labelledby="navbarDropdownMenuLink">
                 {% for category in site.categories %}
-                    <a class="dropdown-item" href="{{ category[0] | slugify }}">{{ category[0] }}</a>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/blog/topik/{{ category[0] | slugify }}">{{ category[0] }}</a>
                  {% endfor %}          
                 </div>
             </li>
