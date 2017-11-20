@@ -10,7 +10,7 @@ description: Blog resmi Putra Binangkit yang menyajikan informasi terkini seputa
         <!--Main layout-->
         <div class="container">
             <div class="row">
-            <a name="artikelterkini"></a>
+<a name="artikelterkini"></a>
                <div class="col-lg-8 artikel clearfix">
 {% for post in paginator.posts %}
                     <!--Post-->
@@ -47,11 +47,9 @@ description: Blog resmi Putra Binangkit yang menyajikan informasi terkini seputa
                         <!--Post excerpt-->
 						  {{ post.excerpt }}
                         <!--"Read more" button-->
-                <a href="{{ site.baseurl }}/blog/{{ post.url }}" class="float-left font-bold">
 
-            <p>Baca Selengkapnya <i class="fa fa-chevron-right"></i></p>
-        </a>
-        </div>
+                        <a href="{{ site.baseurl }}/blog/{{ post.url }}" class="font-bold">Baca Selengkapnya <i class="fa fa-chevron-right"></i>        </a>
+                    </div>
                     <!--/.Post-->
 
                     <hr>
