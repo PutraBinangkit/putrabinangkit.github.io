@@ -220,22 +220,14 @@ hr.style1{
 	margin-top: 50px;
 }
 
-.toptrend{
-	overflow-y: hidden;
-	overflow: hidden;
-}
- img.blog-logo{
- 	padding-top: 10px;
- 	margin-top: 30px;
- }
 
- .hot-trend img{
- 	overflow: hidden;
- 	overflow-y: hidden;
+ .blog-logo{
+ 	margin-top: 10px;
  }
 
 .hot-trend{
 	height: 500px;
+	overflow: hidden;
 }
  
  .navbar.navbar-white .breadcrumb .nav-item .nav-link,
