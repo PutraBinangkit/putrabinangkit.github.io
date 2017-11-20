@@ -221,9 +221,41 @@ hr.style1{
 }
 .hot-trend, 
 .toptrend{
-	height: 300px;
-	overflow-y: hidden
+	height: 500px;
+	overflow-y: hidden;
 }
  img.blog-logo{
  	padding-top: 10px;
+ 	margin-top: 30px;
  }
+
+ .hot-trend img{
+ 	overflow: hidden;
+ 	overflow-y: hidden;
+ }
+ 
+ .navbar.navbar-white .breadcrumb .nav-item .nav-link,
+  .navbar.navbar-white .navbar-nav .nav-item .nav-link {
+    color: #757575;
+    -webkit-transition: 0.35s;
+    transition: 0.35s; }
+    .navbar.navbar-white .breadcrumb .nav-item .nav-link:hover,
+    .navbar.navbar-white .navbar-nav .nav-item .nav-link:hover {
+      color: rgba(0, 0, 0, 0.75); 
+  	}
+ .secondmenublog{
+	padding-top: 15px;
+	border: none;
+	padding-bottom: -30px;	     
+}
+.navbar .secondmenublog a{
+	color: #757575 !important;
+}
+
+ .navbar .secondmenublog a:hover {
+        color: rgba(0, 0, 0, 0.75) !important;
+        background: #eaeaea !important;
+          -webkit-transition: 0.35s;
+    	transition: 0.35s; 
+    	font-weight: bold;
+         }
