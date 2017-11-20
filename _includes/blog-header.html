@@ -260,9 +260,8 @@
  <header>
 
 
-
   <div class="row">
-  <div class="header-blog">
+   <div class="container">
     <div class="col">
     <a class="navbar-brand float-left align-middle" href="{{ site.url }}/" title="{{ site.title }}"> 
         <img src="{{ site.url }}/img/logo-atas-black.png" height="50" class="d-inline-block align-middle" alt="PutraBinangkit" title="Blog - {{ site.title }}"></a>
@@ -338,10 +337,10 @@
 
 {% if page.url == '/blog/' %}
 {% for post in site.categories.Teknologi limit:1 %}
-<section class="hot-trend">
+<section class="toptrend">
 <div class="row">
     <div class="col-8">
-     <div class="mask">
+     <div class="mask hot-trend">
      {% assign foundImage = 0 %}
       {% assign images = post.content | split:"<img " %}
       {% for image in images %}
@@ -359,7 +358,7 @@
     <div class="col-4">
       <div class="meta-trend">
       <br>
-      <p class="font-bold">{{ category }}</p>
+      <p class="font-bold">Teknologi</p>
       <h1 class="h1-responsive font-bold"><a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
       </a></h1>
