@@ -47,8 +47,11 @@ description: Blog resmi Putra Binangkit yang menyajikan informasi terkini seputa
                         <!--Post excerpt-->
 						  {{ post.excerpt }}
                         <!--"Read more" button-->
-                        <a href="{{ site.baseurl }}{{ post.url }}"><button class="btn btn-info unique-color">Read more</button></a>
-                    </div>
+                        <a href="{{ site.baseurl }}/blog/{{ post.url }}" class="black-text d-flex flex-row-reverse">
+
+            <h5>Baca Selengkapnya <i class="fa fa-chevron-right"></i></h5>
+        </a>
+        </div>
                     <!--/.Post-->
 
                     <hr>
