@@ -257,14 +257,11 @@
 </head>
 
 <body id="myPage">
- <header>
-
-
   <div class="row">
    <div class="container">
     <div class="col">
     <a class="navbar-brand float-left align-middle" href="{{ site.url }}/" title="{{ site.title }}"> 
-        <img src="{{ site.url }}/img/logo-atas-black.png" height="50" class="d-inline-block align-middle" alt="PutraBinangkit" title="Blog - {{ site.title }}"></a>
+        <img src="{{ site.url }}/img/logo-atas-black.png" height="50" class="blog-logo align-middle" alt="PutraBinangkit" title="Blog - {{ site.title }}"></a>
     </div>
     <div class="col">
     <a class="nav-link font-up float-right" href="{{ site.baseurl }}/kontak/" data-offset="20">
@@ -334,7 +331,6 @@
     </div>
   </div>
 </nav>
-</header>
 {% if page.url == '/blog/' %}
 {% for post in site.categories.Teknologi limit:1 %}
 <section class="toptrend">

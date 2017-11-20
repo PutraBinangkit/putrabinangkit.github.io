@@ -4,7 +4,6 @@ body{
 	transition: background-color 1s ease;
 }
 
-
 .navbar-expand-lg {
     background-color: transparent;
     border: 0px;
@@ -220,11 +219,16 @@ hr.style1{
 .catpage{
 	margin-top: 50px;
 }
-.hot-trend{
+.hot-trend, 
+.toptrend{
 	max-height:450px;
+	overflow: hidden;
 }
 .img-fluidss{
   max-width: 100%;
   height: auto;
   overflow: hidden;
-  }
+ }
+ .blog-logo{
+ 	margin-top: 5px;
+ }
