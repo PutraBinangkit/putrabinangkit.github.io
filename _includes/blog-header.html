@@ -265,7 +265,7 @@
   <div class="row">
     <div class="col">
 <a class="navbar-brand float-left" href="{{ site.url }}/" title="{{ site.title }}"> 
-        <img src="{{ site.url }}/img/logo-atas-black.png" height="40" class="d-inline-block align-top" alt="PutraBinangkit" title="Blog - {{ site.title }}"></a>
+        <img src="{{ site.url }}/img/logo-atas-black.png" height="50" class="d-inline-block align-middle" alt="PutraBinangkit" title="Blog - {{ site.title }}"></a>
     </div>
     <div class="col">
     <a class="nav-link font-up float-right" href="{{ site.baseurl }}/kontak/" data-offset="20">
@@ -274,10 +274,7 @@
     </div>
   </div>
   </div>
-<hr>
-
-  
-<nav class="navbar navbar-expand-lg navbar-white">
+ <nav class="navbar navbar-expand-lg navbar-white">
     <h2><a class="navbar-brand" href="{{ site.baseurl }}/blog/">Blog</a></h2>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
         aria-expanded="false" aria-label="Toggle navigation">
@@ -335,8 +332,8 @@
         </span>
     </div>
 </nav>
-{% for page in (1..paginator.total_pages) %}
-{% if page == 1 %}
+
+{% if page.url == "{{ site.baseurl }}/blog/" %}
 {% for post in site.categories[Teknologi] limit:1 %}
 <section class="hot-trend">
 <div class="row">
@@ -373,8 +370,7 @@
 </div>
 </section>
 {% endfor %}
-{% else %}
-</header>
 {% endif %}
-{% endfor %}
+</header>
+
     <!-- Navigation & Intro -->
