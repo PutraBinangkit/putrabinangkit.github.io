@@ -255,9 +255,11 @@ hr.style1{
 	margin-left: 80px;
 	color: #757575;
 }
-.toptrend .artikel a{
-	color: #757575;
-}
-.toptrend .artikel a:hover{
+.toptrend a,
+.post-wrapper a{
 	color: rgba(0, 0, 0, 0.75);
+}
+.toptrend a:hover,
+.post-wrapper a:hover{
+	color: #757575;
 }
