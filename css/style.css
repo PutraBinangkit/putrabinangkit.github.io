@@ -227,3 +227,26 @@ hr.style1{
  .blog-logo img{
  	margin-top: 10px;
  }
+
+ .secondmenublog{
+	padding-top: 15px;
+	border: none;
+	padding-bottom: -30px;	     
+}
+.navbar .secondmenublog a{
+
+	color: #757575 !important;
+}
+
+ .navbar .secondmenublog a:hover {
+        color: rgba(0, 0, 0, 0.75) !important;
+        background: #eaeaea !important;
+          -webkit-transition: 0.35s;
+    	transition: 0.35s; 
+
+         }
+.navbar.navbar-customblog .breadcrumb .nav-item .nav-link,
+  .navbar.navbar-customblog .navbar-nav .nav-item .nav-link {
+    color: #757575;
+    -webkit-transition: 0.35s;
+    transition: 0.35s; }
