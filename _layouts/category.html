@@ -18,7 +18,7 @@ layout: default-blog
                    
 <ul>
  {% for post in site.categories[page.category] limit:20 %}
-  <li><a href="{{ post.url | absolute_url }}">{{ post.title }}</a> {{ post.date | date_to_string }}</li>
+  <li><strong><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></strong> {{ post.date | date_to_string }}</li>
   {% endfor %}
 </ul>
 

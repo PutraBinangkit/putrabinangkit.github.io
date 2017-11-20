@@ -261,7 +261,7 @@ hr.style1{
 }
 .toptrend a:hover,
 .post-wrapper a:hover{
-	color: #757575;
+	color: rgba(0, 0, 0, 0.90);
 }
 
  .navbar.navbar-white .navbar-nav .nav-item{
