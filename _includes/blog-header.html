@@ -257,6 +257,7 @@
 </head>
 
 <body id="myPage" data-offset="60">
+<div class="panel">
 
  <header>
 
@@ -264,7 +265,7 @@
 <div class="container header-blog">
   <div class="row">
     <div class="col">
-<a class="navbar-brand float-left" href="{{ site.url }}/" title="{{ site.title }}"> 
+    <a class="navbar-brand float-left align-middle" href="{{ site.url }}/" title="{{ site.title }}"> 
         <img src="{{ site.url }}/img/logo-atas-black.png" height="50" class="d-inline-block align-middle" alt="PutraBinangkit" title="Blog - {{ site.title }}"></a>
     </div>
     <div class="col">
@@ -274,8 +275,9 @@
     </div>
   </div>
   </div>
+
  <nav class="navbar navbar-expand-lg navbar-white">
-    <h2><a class="navbar-brand" href="{{ site.baseurl }}/blog/">Blog</a></h2>
+    <h2><a class="navbar-brand" href="{{ site.baseurl }}/blog/"><strong>Blog</strong></a></h2>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -372,5 +374,6 @@
 {% endfor %}
 {% endif %}
 </header>
+</div> <!--div panel-->
 
     <!-- Navigation & Intro -->
