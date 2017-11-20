@@ -219,10 +219,10 @@ hr.style1{
 .catpage{
 	margin-top: 50px;
 }
-.hot-trend, 
+
 .toptrend{
-	height: 500px;
 	overflow-y: hidden;
+	overflow: hidden;
 }
  img.blog-logo{
  	padding-top: 10px;
@@ -233,6 +233,10 @@ hr.style1{
  	overflow: hidden;
  	overflow-y: hidden;
  }
+
+.hot-trend{
+	height: 500px;
+}
  
  .navbar.navbar-white .breadcrumb .nav-item .nav-link,
   .navbar.navbar-white .navbar-nav .nav-item .nav-link {
