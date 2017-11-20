@@ -263,7 +263,17 @@ hr.style1{
           -webkit-transition: 0.35s;
     	transition: 0.35s; 
          }
+.navbar .nav-cust a{
+		color: #757575 !important;
+}
 
+.navbar .nav-cust a:hover{
+		color: rgba(0, 0, 0, 0.75) !important;
+        background: #eaeaea !important;
+          -webkit-transition: 0.35s;
+    	transition: 0.35s; 
+}
 .juduljudulan{
 	margin-top: 50px;
+	margin-left: 30px;
 }
