@@ -256,13 +256,13 @@ hr.style1{
 	color: #757575;
 }
 .toptrend a,
-.post-wrapper a,
-.navbar-brand a{
+.post-wrapper a
+{
 	color: rgba(0, 0, 0, 0.75);
 }
 .toptrend a:hover,
-.post-wrapper a:hover,
-.navbar-brand a:hover{
+.post-wrapper a:hover
+{
 	color: rgba(0, 0, 0, 0.90);
 }
 
