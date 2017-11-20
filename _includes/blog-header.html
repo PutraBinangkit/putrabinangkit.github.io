@@ -291,9 +291,9 @@
                     aria-expanded="false">
              	Topik
                 </a>
-                <div class="dropdown-menu secondmenublog" aria-labelledby="navbarDropdownMenuLink">
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 {% for category in site.categories %}
-                    <a class="dropdown-item nav-link" href="{{ category[0] | slugify }}">{{ category[0] }}</a>
+                    <a class="dropdown-item" href="{{ category[0] | slugify }}">{{ category[0] }}</a>
                  {% endfor %}          
                 </div>
             </li>
@@ -303,17 +303,17 @@
                     aria-expanded="false">
                Layanan Kami
                 </a>
-                <div class="dropdown-menu secondmenublog" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item nav-link" href="{{ site.baseurl }}/website-internet-marketing/">Website & Internet Marketing</a>
-                    <a class="dropdown-item nav-link" href="{{ site.baseurl }}/aplikasi-bisnis-terintegrasi/">Aplikasi Bisnis Terintegrasi</a>
-                    <a class="dropdown-item nav-link" href="{{ site.baseurl }}/pengelolaan-informasi-teknologi/">Pengelolaan Infrastruktur IT</a>
-                    <a class="dropdown-item nav-link" href="{{ site.baseurl }}/penjualan-perbaikan-komputer/">Penjualan & Perbaikan Komputer</a>
-                    <a class="dropdown-item nav-link" href="{{ site.baseurl }}/instalasi-jaringan/">Instalasi Jaringan</a>
-                    <a class="dropdown-item nav-link" href="{{ site.baseurl }}/sumber-daya-manusia/">Sumber Daya Manusia</a>                
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="{{ site.baseurl }}/website-internet-marketing/">Website & Internet Marketing</a>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/aplikasi-bisnis-terintegrasi/">Aplikasi Bisnis Terintegrasi</a>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/pengelolaan-informasi-teknologi/">Pengelolaan Infrastruktur IT</a>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/penjualan-perbaikan-komputer/">Penjualan & Perbaikan Komputer</a>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/instalasi-jaringan/">Instalasi Jaringan</a>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/sumber-daya-manusia/">Sumber Daya Manusia</a>                
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/about-us/" data-offset="20">Tentang Kami</a>
+                <a class="nav-link" href="{{ site.baseurl }}/about-us/">Tentang Kami</a>
             </li>
                  
         </ul>
@@ -337,8 +337,8 @@
 {% for post in site.categories.Teknologi limit:1 %}
 <section class="toptrend">
 <div class="row">
-    <div class="col-8">
-     <div class="hot-trend clearfix">
+    <div class="col-8 clearfix">
+     <div class="hot-trend">
      {% assign foundImage = 0 %}
       {% assign images = post.content | split:"<img " %}
       {% for image in images %}

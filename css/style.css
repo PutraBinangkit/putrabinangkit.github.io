@@ -220,38 +220,24 @@ hr.style1{
 	margin-top: 50px;
 }
 
-
  .blog-logo{
- 	margin-top: 10px;
+ 	margin-top: 30px;
  }
 
 .hot-trend{
-	height: 400px;
+	height: 350px;
 	overflow: hidden;
 }
  
  .navbar.navbar-white .breadcrumb .nav-item .nav-link,
-  .navbar.navbar-white .navbar-nav .nav-item .nav-link {
+  .navbar.navbar-white .navbar-nav .nav-item .nav-link,
+    .navbar.navbar-white .navbar-nav .nav-item .dropdown-menu .dropdown-item{
     color: #757575;
     -webkit-transition: 0.35s;
     transition: 0.35s; }
     .navbar.navbar-white .breadcrumb .nav-item .nav-link:hover,
-    .navbar.navbar-white .navbar-nav .nav-item .nav-link:hover {
+    .navbar.navbar-white .navbar-nav .nav-item .nav-link:hover,
+        .navbar.navbar-white .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
       color: rgba(0, 0, 0, 0.75); 
   	}
- .secondmenublog{
-	padding-top: 15px;
-	border: none;
-	padding-bottom: -30px;	     
-}
-.navbar .secondmenublog a{
-	color: #757575 !important;
-}
-
- .navbar .secondmenublog a:hover {
-        color: rgba(0, 0, 0, 0.75) !important;
-        background: #eaeaea !important;
-          -webkit-transition: 0.35s;
-    	transition: 0.35s; 
-    
-         }
+ 
