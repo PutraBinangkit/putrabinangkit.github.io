@@ -14,7 +14,7 @@ description: Kumpulan arsip artikel yang telah kami publikasikan dengan berbagai
                     <div class="post-wrapper wow fadeIn catpage" data-wow-delay="0.2s">
 
 
-{% capture my_tag %}{{ page.url | remove: "https://www.putrabinangkit.com/blog/hashtag/" }}
+{% capture my_tag %}{{ page.url }}
 {% endcapture %}
 {{ my_tag }}
  {% for post in site.tags[my_tag] limit:20 %}
