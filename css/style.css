@@ -29,13 +29,6 @@ body{
     -webkit-transition: 0.35s;
     transition: 0.35s; }
 
-
- .navbar.navbar-custblog .breadcrumb .nav-item .nav-link,
-  .navbar.navbar-custblog .navbar-nav .nav-item .nav-link {
-    color: #757575;
-    -webkit-transition: 0.35s;
-    transition: 0.35s; }
-
 .intro{
     background: url("../img/michael-discenza-199747.jpg")no-repeat center center;
     background-size: cover;
