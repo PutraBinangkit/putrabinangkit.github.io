@@ -4,7 +4,6 @@ title: Kumpulan Arsip Semua Hashtag
 description: Kumpulan arsip artikel yang telah kami publikasikan dengan berbagai macam hashtag, memberikan anda informasi teraktual dan terkini
 ---
 
-
 <div class="container">
             <div class="row">
 
@@ -15,14 +14,16 @@ description: Kumpulan arsip artikel yang telah kami publikasikan dengan berbagai
                     <div class="post-wrapper wow fadeIn catpage" data-wow-delay="0.2s">
 
 
+ {{ if tag == page.url | replace: 'https://www.putrabinangkit.com/blog/hashtag/', '' }}
  {% for tag in site.tags %}
 <h6 class="h6-responsive font-bold"><a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a></h6>
 <ul>
-  {% for post in tag[1] %} limit:5 %}
+  {% for post in tag[1] limit:5 %}
   <li><strong><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></strong> {{ post.date | date_to_string }}</li>
    {% endfor %}
 </ul>
    {% endfor %}
+{% endif %}
 
 
 
