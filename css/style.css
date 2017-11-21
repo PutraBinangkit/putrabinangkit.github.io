@@ -266,3 +266,7 @@ hr.style1{
 	color: rgba(0, 0, 0, 0.90);
 }
 
+ .itempad{
+ 	margin-left: 15px;
+ 	overflow-x: hidden;
+ }
