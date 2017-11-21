@@ -14,16 +14,16 @@ description: Kumpulan arsip artikel yang telah kami publikasikan dengan berbagai
                     <div class="post-wrapper wow fadeIn catpage" data-wow-delay="0.2s">
 
 
- {{ if tag == page.url | replace: 'https://www.putrabinangkit.com/blog/hashtag/', '' }}
- {% for post in site.tags[tag] limit:20 %}
-<h6 class="h6-responsive font-bold"><a href="#{{ tag | slugify }}" class="post-tag">{{ tag }}</a></h6>
+{% capture my_tag %}{{ page.url | remove: "https://www.putrabinangkit.com/blog/hashtag/" }}
+{% endcapture %}
+
+
+ {% for post in site.tags[my_tag] limit:20 %}
+<h6 class="h6-responsive font-bold"><a href="#{{ my_tag | slugify }}" class="post-tag">{{ my_tag }}</a></h6>
 <ul>
-  {% for post in tag limit:5 %}
   <li><strong><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></strong> {{ post.date | date_to_string }}</li>
-   {% endfor %}
 </ul>
    {% endfor %}
-{% endif %}
 
 
 
