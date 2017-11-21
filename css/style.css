@@ -240,8 +240,7 @@ hr.style1{
 	border: none;
 	padding-bottom: -30px;	     
 }
-.navbar .secondmenublog a{
-  
+.navbar .secondmenublog a{  
 	color: #757575 !important;
 }
 
@@ -256,6 +255,7 @@ hr.style1{
 	margin-left: 80px;
 	color: #757575;
 }
+
 .toptrend a,
 .post-wrapper a
 {

@@ -272,8 +272,8 @@
     </div>
   </div>
 </div>
- <header>
- <nav class="navbar navbar-expand-lg navbar-custom navbar-white">
+
+ <nav class="navbar navbar-expand-lg navbar-custom navbar-white  fixed-top">
  <div class="container">
     <a class="navbar-brand nav-link black-text font-bold" href="{{ site.baseurl }}/blog/"><i class="fa fa-home" aria-hidden="true"></i> Blog</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
@@ -335,8 +335,6 @@
 </nav>
 {% if page.url == '/blog/' %}
 {% for post in site.tags.tnbt limit:1 %}
-
-
 <section class="toptrend">
 <div class="row">
     <div class="col-8 clearfix">
@@ -373,8 +371,6 @@
     </div>
     </div>
     </section>
-  </header>
-
 
 <div class="juduljudulan">
 <p class="display-4">Artikel Terkini <a href="#artikelterkini"><i class="fa fa-angle-down" aria-hidden="true"></i></a></p>
