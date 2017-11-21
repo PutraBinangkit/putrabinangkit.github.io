@@ -16,8 +16,7 @@ description: Kumpulan arsip artikel yang telah kami publikasikan dengan berbagai
 
 {% capture my_tag %}{{ page.url | remove: "https://www.putrabinangkit.com/blog/hashtag/" }}
 {% endcapture %}
-
-
+{{ my_tag }}
  {% for post in site.tags[my_tag] limit:20 %}
 <h6 class="h6-responsive font-bold"><a href="#{{ my_tag | slugify }}" class="post-tag">{{ my_tag }}</a></h6>
 <ul>
