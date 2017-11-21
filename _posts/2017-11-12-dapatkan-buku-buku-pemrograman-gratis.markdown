@@ -2,7 +2,7 @@
 layout: single-post
 title: Dapatkan Buku Buku Pemrograman Gratis.
 date: 2017-11-12 11:20:00 Z
-category: Teknologi
+category: [Teknologi, Bisnis UKM]
 tags: tnbt
 ---
 
