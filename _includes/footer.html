@@ -89,9 +89,9 @@
     <script type="text/javascript" src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="{{ site.baseurl }}/js/mdb.min.js"></script>
-    {% unless page.url == '/blog/*' %}
+    {% if page.url != '/blog/*' %}
     <script type="text/javascript" src="{{ site.baseurl }}/js/mycustom.js"></script>
-    {% endunless %}
+    {% endif %}
 
 </body>
 
