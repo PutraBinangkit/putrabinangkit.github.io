@@ -16,7 +16,7 @@ description: Kumpulan arsip artikel yang telah kami publikasikan dengan berbagai
 
                    
 {% for category in site.categories %}
-<h6 class="h6-responsive font-bold"><a href="{{ category[0] | slugify }}" class="post-tag">{{ category[0] }}</a></h6>
+<h6 class="h6-responsive font-bold"><a href="{{ category[0] | slugify }}" class="post-tag">{{ category[0] | replace '-', ' ' }}</a></h6>
 <ul>
    {% for post in category[1]  limit:5 %}
   <li><strong><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></strong> {{ post.date | date_to_string }}</li>
