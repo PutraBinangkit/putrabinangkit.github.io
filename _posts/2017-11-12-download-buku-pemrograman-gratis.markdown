@@ -3,7 +3,7 @@ layout: single-post
 title: Download Buku Pemrograman Gratis.
 date: 2017-11-12 11:20:00 Z
 category: Gadget
-tags: code, tnbt, website, design
+tags: code tnbt website design
 ---
 
 **[Github community](https://github.com/vhf/free-programming-books)** has made an index of programming books that can be downloaded for free, <!-- more --> the books are very diverse but focused on one topic namely programming and computer-related matters.
