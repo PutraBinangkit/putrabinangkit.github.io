@@ -1,7 +1,7 @@
 ---
 layout: default-blog
-title: Kumpulan Arsip Semua Hashtag
-description: Kumpulan arsip artikel yang telah kami publikasikan dengan berbagai macam hashtag, memberikan anda informasi teraktual dan terkini
+title: Kumpulan Arsip The Next Big Thing
+description: Kumpulan arsip artikel yang telah kami publikasikan dengan hash tag The Next Big Thing, memberikan anda informasi teraktual dan terkini
 ---
 
 <div class="container">
@@ -9,17 +9,15 @@ description: Kumpulan arsip artikel yang telah kami publikasikan dengan berbagai
 
                <div class="col-lg-8 artikel">
 
-               <h1 class="h1-responsive font-bold">Arsip Artikel</h1>
+               <h1 class="h1-responsive font-bold">The Next Big Thing</h1>
        <!--Post-->
                     <div class="post-wrapper wow fadeIn catpage" data-wow-delay="0.2s">
 
 
-{% capture my_tag %}android goblog
-{% endcapture %}
-{{ my_tag }}
 
- {% for post in site.tags[tag] limit:20 %}
-<h6 class="h6-responsive font-bold"><a href="#{{ my_tag | slugify }}" class="post-tag">{{ tag }}</a></h6>
+
+ {% for post in site.tags.tnbt limit:20 %}
+<h6 class="h6-responsive font-bold"><a href="#{{ my_tag | slugify }}" class="post-tag">The Next Big Thing</a></h6>
 <ul>
   <li><strong><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></strong> {{ post.date | date_to_string }}</li>
 </ul>

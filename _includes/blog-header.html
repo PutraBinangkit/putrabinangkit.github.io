@@ -283,7 +283,7 @@
     <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link font-bold" href="{{ site.baseurl }}/blog/topik/teknologi/"><strog>The Next Big Things</strog></span></a>
+                <a class="nav-link font-bold" href="{{ site.baseurl }}/blog/topik/tnbt/"><strog>The Next Big Thing</strog></span></a>
             </li>
            
            <li class="dropdown nav-item">
@@ -334,7 +334,7 @@
   </div>
 </nav>
 {% if page.url == '/blog/' %}
-{% for post in site.categories.Teknologi limit:1 %}
+{% for post in site.tags.tnbt limit:1 %}
 <section class="toptrend">
 <div class="row">
     <div class="col-8 clearfix">
@@ -356,7 +356,7 @@
     <div class="col-4">
       <div class="meta-trend">
       <br>
-      <p class="font-bold">Teknologi</p>
+      <p class="font-bold">The Next Big Thing</p>
       <h1 class="h1-responsive font-bold"><a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
       </a></h1>
