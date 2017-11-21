@@ -268,4 +268,5 @@ hr.style1{
 
  .itempad{
  	margin-right: 15px;
+ 	overflow: hidden;
  }

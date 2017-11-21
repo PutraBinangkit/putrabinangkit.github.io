@@ -2,7 +2,7 @@
 layout: single-post
 title: Dapatkan Buku Pemrograman Gratis.
 date: 2017-11-12 11:20:00 Z
-category: [Media-Sosial]
+category: Media-Sosial
 
 ---
 
