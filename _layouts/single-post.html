@@ -34,7 +34,7 @@ layout: default-blog
                 <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
                      {% if page.tags %} | 
   {% for tag in page.tags %}
-    <span>Tag: <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a></span>
+    <span>Tag: <a href="{{ site.baseurl }}{{ site.tag_page }}/hashtag-{{ tag }}" class="post-tag">{{ tag }}</a></span>
   {% endfor %}
   {% endif %}
 

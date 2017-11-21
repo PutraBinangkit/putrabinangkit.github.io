@@ -43,4 +43,4 @@ nav:
   Home:           
     - '/'
 
-tag_page: '/blog/hashtag/'
+tag_page: '/blog/hashtag-{{ tag }}'
