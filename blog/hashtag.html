@@ -1,0 +1,47 @@
+---
+layout: default-blog
+title: Kumpulan Arsip Semua Hashtag
+description: Kumpulan arsip artikel yang telah kami publikasikan dengan berbagai macam hashtag, memberikan anda informasi teraktual dan terkini
+---
+
+
+<div class="container">
+            <div class="row">
+
+               <div class="col-lg-8 artikel">
+
+               <h1 class="h1-responsive font-bold">Arsip Artikel</h1>
+       <!--Post-->
+                    <div class="post-wrapper wow fadeIn catpage" data-wow-delay="0.2s">
+
+
+ {% for tag in site.tags %}
+<h6 class="h6-responsive font-bold"><a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a></h6>
+<ul>
+  {% for post in tag[1] %} limit:5 %}
+  <li><strong><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></strong> {{ post.date | date_to_string }}</li>
+   {% endfor %}
+</ul>
+   {% endfor %}
+
+
+
+                        <!--Post data-->
+                     
+                    </div>
+                    <!--/.Post-->
+
+                    <hr>
+                   <!--Pagination-->
+
+
+                      <!--/.Pagination-->
+                  </div>
+        {% include widget.html %}
+                </div>
+		  
+            </div>
+        </div>
+        <!--/.Main layout-->
+
+ </main>

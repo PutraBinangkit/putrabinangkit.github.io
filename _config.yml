@@ -42,3 +42,5 @@ author:
 nav:
   Home:           
     - '/'
+
+tag_page: '/blog/hashtag/'
