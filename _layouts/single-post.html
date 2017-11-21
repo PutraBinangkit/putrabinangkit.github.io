@@ -16,7 +16,7 @@ layout: default-blog
                         <h1 class="h1-responsive font-bold">{{ page.title }}</h1>
                            <h6>Ditulis oleh <a href="{{ site.url }}"><strong>Putra Binangkit</strong></a> pada {{ page.date | date_to_string }} di  {% if page.category %} 
     {% for category in page.category %}
-    <a href="{{ site.baseurl }}/blog/topik/{{ category | slugify }}" class="post-tag">{{ category | replace '-', ' ' }}</a>
+    <a href="{{ site.baseurl }}/blog/topik/{{ category | slugify }}" class="post-tag">{{ category | replace "-", " " }}</a>
     {% endfor %}
     {% endif %}</h6>
 
