@@ -10,7 +10,7 @@ layout: default-blog
 
                <div class="col-lg-8 artikel">
               
-                <h1 class="h1-responsive font-bold">{{ page.category }}</h1>
+                <h1 class="h1-responsive font-bold">{{ page.category | replace: "-", " "}}</h1>
 
                     <!--Post-->
                     <div class="post-wrapper wow fadeIn catpage" data-wow-delay="0.2s">
