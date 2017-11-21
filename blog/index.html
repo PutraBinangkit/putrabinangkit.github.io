@@ -22,7 +22,7 @@ description: Blog resmi Putra Binangkit yang menyajikan informasi terkini seputa
                            <h6>Ditulis oleh <a href="{{ site.url }}"><strong>Putra Binangkit</strong></a> pada {{ post.date | date_to_string }} di  
                               {% if post.category %} 
     {% for category in post.category %}
-    <a href="{{ site.baseurl }}/blog/topik/{{ category | slugify }}" class="post-tag">{{ category | replace "-", " " }}</a>
+    <a href="{{ site.baseurl }}/blog/topik/{{ category | slugify }}" class="post-tag">{{ category | replace '-', '  ' }}</a>
     {% endfor %}
     {% endif %}</h6>
 </h6>
