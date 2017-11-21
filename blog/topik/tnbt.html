@@ -16,12 +16,14 @@ description: Kumpulan arsip artikel yang telah kami publikasikan dengan hash tag
 
 
 
- {% for post in site.tags.tnbt limit:20 %}
+
 <h6 class="h6-responsive font-bold"><a href="#{{ my_tag | slugify }}" class="post-tag">The Next Big Thing</a></h6>
 <ul>
+ {% for post in site.tags.tnbt limit:20 %}
   <li><strong><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></strong> {{ post.date | date_to_string }}</li>
+ {% endfor %}
+
 </ul>
-   {% endfor %}
 
 
 
