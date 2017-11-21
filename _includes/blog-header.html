@@ -335,8 +335,9 @@
 </nav>
 {% if page.url == '/blog/' %}
 {% for post in site.tags.tnbt limit:1 %}
-<section class="toptrend container-fluid">
+
 <div class="row">
+<section class="toptrend">
     <div class="col-8 clearfix">
      <div class="hot-trend">
      {% assign foundImage = 0 %}
@@ -369,8 +370,9 @@
         </a>
       </div>
     </div>
+    </section>
 </div>
-</section>
+
 
 <div class="juduljudulan">
 <p class="display-4">Artikel Terkini <a href="#artikelterkini"><i class="fa fa-angle-down" aria-hidden="true"></i></a></p>
